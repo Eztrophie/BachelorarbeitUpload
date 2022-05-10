@@ -1,11 +1,11 @@
-# Inhalt der CD ?
+# Struktur der Ergebnisse
 - /source 
 	- /carisma.check.iotcomponents : Source Code des CARiSMA Check Plugin
 	- /carisma.profile.umlsec.iotcomponents : Source Code des Profil Plugins
 - /eclipse : Installation der Eclipse IDE
 - /modeling : Dateien des Eclipse Modeling Framework
 - eclipse.exe : Eine Eclipse installation in der die Plugins bereits installiert sind
-- Ausarbeitung_Maximilian_Käsgen.pdf : Eine digitale Fassung der Bachelorarbeit
+- Ausarbeitung.pdf : Eine digitale Fassung der Bachelorarbeit
 - README.md : Diese Datei
 
 
