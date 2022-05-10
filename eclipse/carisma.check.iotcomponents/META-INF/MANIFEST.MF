@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %Bundle-Name
+Bundle-SymbolicName: carisma.check.iotcomponents;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: carisma.check.iotcomponents.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ carisma.modeltype.uml2,
+ carisma.core,
+ org.eclipse.uml2.uml.resources;bundle-version="5.5.0",
+ carisma.profile.umlsec.iotcomponents;bundle-version="1.0.0",
+ carisma.ocl;bundle-version="1.0.2"
+Bundle-RequiredExecutionEnvironment: JavaSE-16
+Automatic-Module-Name: carisma.check.iotcomponents
+Bundle-ActivationPolicy: lazy
+Export-Package: carisma.check.iotcomponents

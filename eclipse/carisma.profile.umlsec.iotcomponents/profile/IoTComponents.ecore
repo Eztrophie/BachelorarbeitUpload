@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="IoTComponents" nsURI="http://www.umlsec.de/profiles/UMLsec/IoTComponents"
+    nsPrefix="IoTComponents">
+  <eClassifiers xsi:type="ecore:EClass" name="intervenability">
+    <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+      <details key="documentation" value="Keine Edges da im Featuremodell keine Technologien identifiziert wurden"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="base_Class" ordered="false"
+        eType="ecore:EClass ../../org.eclipse.uml2.uml/model/UML.ecore#//Class"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="base_Interface" ordered="false"
+        eType="ecore:EClass ../../org.eclipse.uml2.uml/model/UML.ecore#//Interface"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TLS" eSuperTypes="#//encryption"/>
+  <eClassifiers xsi:type="ecore:EClass" name="encryption" eSuperTypes="#//confidentiality"/>
+  <eClassifiers xsi:type="ecore:EClass" name="confidentiality">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="base_Class" ordered="false"
+        eType="ecore:EClass ../../org.eclipse.uml2.uml/model/UML.ecore#//Class"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="base_Association" ordered="false"
+        eType="ecore:EClass ../../org.eclipse.uml2.uml/model/UML.ecore#//Association"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="base_Interface" ordered="false"
+        eType="ecore:EClass ../../org.eclipse.uml2.uml/model/UML.ecore#//Interface"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="unlinkability">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="base_Class" ordered="false"
+        eType="ecore:EClass ../../org.eclipse.uml2.uml/model/UML.ecore#//Class"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="base_Interface" ordered="false"
+        eType="ecore:EClass ../../org.eclipse.uml2.uml/model/UML.ecore#//Interface"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="checksums" eSuperTypes="#//integrity"/>
+  <eClassifiers xsi:type="ecore:EClass" name="integrity">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="base_Class" ordered="false"
+        eType="ecore:EClass ../../org.eclipse.uml2.uml/model/UML.ecore#//Class"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="base_Association" ordered="false"
+        eType="ecore:EClass ../../org.eclipse.uml2.uml/model/UML.ecore#//Association"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="base_Interface" ordered="false"
+        eType="ecore:EClass ../../org.eclipse.uml2.uml/model/UML.ecore#//Interface"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="certificate" eSuperTypes="#//authentication #//signing"/>
+  <eClassifiers xsi:type="ecore:EClass" name="signing" eSuperTypes="#//integrity"/>
+  <eClassifiers xsi:type="ecore:EClass" name="authentication" eSuperTypes="#//integrity"/>
+  <eClassifiers xsi:type="ecore:EClass" name="availability">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="base_Class" ordered="false"
+        eType="ecore:EClass ../../org.eclipse.uml2.uml/model/UML.ecore#//Class"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="base_Interface" ordered="false"
+        eType="ecore:EClass ../../org.eclipse.uml2.uml/model/UML.ecore#//Interface"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="transparency">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="base_Class" ordered="false"
+        eType="ecore:EClass ../../org.eclipse.uml2.uml/model/UML.ecore#//Class"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="base_Interface" ordered="false"
+        eType="ecore:EClass ../../org.eclipse.uml2.uml/model/UML.ecore#//Interface"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="securitypatches" eSuperTypes="#//integrity"/>
+  <eClassifiers xsi:type="ecore:EClass" name="automaticpatchmanagement" eSuperTypes="#//securitypatches">
+    <eAnnotations source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <details key="originalName" value="automatic patchmanagement"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="encryptedconfiguration" eSuperTypes="#//encryption">
+    <eAnnotations source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <details key="originalName" value="encrypted configuration"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="encrypteddatastore" eSuperTypes="#//encryption">
+    <eAnnotations source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <details key="originalName" value="encrypted datastore"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="redundantinfrastructure" eSuperTypes="#//availability">
+    <eAnnotations source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <details key="originalName" value="redundant infrastructure "/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="desasterrecovery" eSuperTypes="#//availability">
+    <eAnnotations source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <details key="originalName" value="desaster recovery"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="accesscontrol" eSuperTypes="#//unlinkability">
+    <eAnnotations source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <details key="originalName" value="access control"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="dataclassification" eSuperTypes="#//transparency">
+    <eAnnotations source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <details key="originalName" value="data classification"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="token" eSuperTypes="#//authentication"/>
+  <eClassifiers xsi:type="ecore:EClass" name="logging" eSuperTypes="#//transparency"/>
+  <eClassifiers xsi:type="ecore:EClass" name="loadbalancer" eSuperTypes="#//redundantinfrastructure">
+    <eAnnotations source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <details key="originalName" value="load balancer "/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="messagebuffer" eSuperTypes="#//redundantinfrastructure"/>
+  <eClassifiers xsi:type="ecore:EClass" name="backups" eSuperTypes="#//desasterrecovery"/>
+  <eClassifiers xsi:type="ecore:EClass" name="X509" eSuperTypes="#//certificate">
+    <eAnnotations source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <details key="originalName" value="X.509"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="RBAC" eSuperTypes="#//accesscontrol"/>
+  <eClassifiers xsi:type="ecore:EClass" name="ABAC" eSuperTypes="#//accesscontrol"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Httpbasicauthentication" eSuperTypes="#//authentication">
+    <eAnnotations source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <details key="originalName" value="Http basic authentication"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="usernamepasswordauthentication" eSuperTypes="#//authentication">
+    <eAnnotations source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <details key="originalName" value="username password authentication"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="identityprovider" eSuperTypes="#//authentication">
+    <eAnnotations source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <details key="originalName" value="identity provider"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="OAuth" eSuperTypes="#//token"/>
+  <eClassifiers xsi:type="ecore:EClass" name="OAuth2" eSuperTypes="#//token"/>
+  <eClassifiers xsi:type="ecore:EClass" name="JasonWebToken" eSuperTypes="#//token">
+    <eAnnotations source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <details key="originalName" value="Jason Web Token"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="MAC" eSuperTypes="#//checksums"/>
+  <eClassifiers xsi:type="ecore:EClass" name="HMAC" eSuperTypes="#//checksums"/>
+  <eClassifiers xsi:type="ecore:EClass" name="IPSec" eSuperTypes="#//encryption"/>
+  <eClassifiers xsi:type="ecore:EClass" name="VPN" eSuperTypes="#//IPSec"/>
+  <eClassifiers xsi:type="ecore:EClass" name="MQTT" eSuperTypes="#//TLS"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Modbus" eSuperTypes="#//TLS"/>
+  <eClassifiers xsi:type="ecore:EClass" name="AMPQ" eSuperTypes="#//TLS"/>
+  <eClassifiers xsi:type="ecore:EClass" name="HTTPS" eSuperTypes="#//TLS"/>
+</ecore:EPackage>

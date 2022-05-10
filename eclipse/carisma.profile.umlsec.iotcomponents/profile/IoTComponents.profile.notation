@@ -1,0 +1,1406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_VUWXoGfSEeyImeFfzO2mjg" type="PapyrusUMLProfileDiagram" name="Profile Diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_oHqFoGfSEeyImeFfzO2mjg" type="Stereotype_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_oHqssGfSEeyImeFfzO2mjg" type="Stereotype_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_oHqssWfSEeyImeFfzO2mjg" type="Stereotype_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_oHqssmfSEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_oHqss2fSEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_oHqstGfSEeyImeFfzO2mjg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oHqstWfSEeyImeFfzO2mjg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_oHqstmfSEeyImeFfzO2mjg" type="Stereotype_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_oHqst2fSEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_oHqsuGfSEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_oHqsuWfSEeyImeFfzO2mjg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oHqsumfSEeyImeFfzO2mjg"/>
+    </children>
+    <element xmi:type="uml:Stereotype" href="IoTComponents.profile.uml#_oHYY0GfSEeyImeFfzO2mjg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oHqFoWfSEeyImeFfzO2mjg" x="220" y="200"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_r9zQwGfSEeyImeFfzO2mjg" type="Stereotype_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_r9zQwmfSEeyImeFfzO2mjg" type="Stereotype_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_r9zQw2fSEeyImeFfzO2mjg" type="Stereotype_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_r9zQxGfSEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_r9zQxWfSEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_r9zQxmfSEeyImeFfzO2mjg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_r9zQx2fSEeyImeFfzO2mjg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_r9zQyGfSEeyImeFfzO2mjg" type="Stereotype_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_r9zQyWfSEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_r9zQymfSEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_r9zQy2fSEeyImeFfzO2mjg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_r9zQzGfSEeyImeFfzO2mjg"/>
+    </children>
+    <element xmi:type="uml:Stereotype" href="IoTComponents.profile.uml#_r9yCoGfSEeyImeFfzO2mjg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_r9zQwWfSEeyImeFfzO2mjg" x="380" y="200"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_yxFicGfSEeyImeFfzO2mjg" type="Stereotype_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_yxFicmfSEeyImeFfzO2mjg" type="Stereotype_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_yxFic2fSEeyImeFfzO2mjg" type="Stereotype_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_yxFidGfSEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_yxFidWfSEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_yxFidmfSEeyImeFfzO2mjg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yxFid2fSEeyImeFfzO2mjg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_yxFieGfSEeyImeFfzO2mjg" type="Stereotype_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_yxFieWfSEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_yxFiemfSEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_yxFie2fSEeyImeFfzO2mjg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yxFifGfSEeyImeFfzO2mjg"/>
+    </children>
+    <element xmi:type="uml:Stereotype" href="IoTComponents.profile.uml#_yxEUUGfSEeyImeFfzO2mjg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yxFicWfSEeyImeFfzO2mjg" x="540" y="200"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_0po_gGfSEeyImeFfzO2mjg" type="Stereotype_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_0po_gmfSEeyImeFfzO2mjg" type="Stereotype_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_0po_g2fSEeyImeFfzO2mjg" type="Stereotype_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_0po_hGfSEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0po_hWfSEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0po_hmfSEeyImeFfzO2mjg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0po_h2fSEeyImeFfzO2mjg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_0po_iGfSEeyImeFfzO2mjg" type="Stereotype_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_0po_iWfSEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0po_imfSEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0po_i2fSEeyImeFfzO2mjg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0po_jGfSEeyImeFfzO2mjg"/>
+    </children>
+    <element xmi:type="uml:Stereotype" href="IoTComponents.profile.uml#_0poYcGfSEeyImeFfzO2mjg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0po_gWfSEeyImeFfzO2mjg" x="700" y="200"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_1ULxUGfSEeyImeFfzO2mjg" type="Stereotype_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_1ULxUmfSEeyImeFfzO2mjg" type="Stereotype_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_1ULxU2fSEeyImeFfzO2mjg" type="Stereotype_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_1ULxVGfSEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_1ULxVWfSEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_1ULxVmfSEeyImeFfzO2mjg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1ULxV2fSEeyImeFfzO2mjg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_1ULxWGfSEeyImeFfzO2mjg" type="Stereotype_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_1ULxWWfSEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_1ULxWmfSEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_1ULxW2fSEeyImeFfzO2mjg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1ULxXGfSEeyImeFfzO2mjg"/>
+    </children>
+    <element xmi:type="uml:Stereotype" href="IoTComponents.profile.uml#_1ULKQGfSEeyImeFfzO2mjg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1ULxUWfSEeyImeFfzO2mjg" x="860" y="200"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_2EjeUGfSEeyImeFfzO2mjg" type="Stereotype_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_2EjeUmfSEeyImeFfzO2mjg" type="Stereotype_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_2EjeU2fSEeyImeFfzO2mjg" type="Stereotype_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_2EjeVGfSEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_2EjeVWfSEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_2EjeVmfSEeyImeFfzO2mjg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2EjeV2fSEeyImeFfzO2mjg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_2EjeWGfSEeyImeFfzO2mjg" type="Stereotype_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_2EjeWWfSEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_2EjeWmfSEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_2EjeW2fSEeyImeFfzO2mjg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2EjeXGfSEeyImeFfzO2mjg"/>
+    </children>
+    <element xmi:type="uml:Stereotype" href="IoTComponents.profile.uml#_2EiQMGfSEeyImeFfzO2mjg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2EjeUWfSEeyImeFfzO2mjg" x="1020" y="200"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_Ak7FwGfTEeyImeFfzO2mjg" type="Comment_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_Ak7FwmfTEeyImeFfzO2mjg" type="Comment_BodyLabel"/>
+    <element xmi:type="uml:Comment" href="IoTComponents.profile.uml#_AkoK0GfTEeyImeFfzO2mjg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ak7FwWfTEeyImeFfzO2mjg" x="20" y="20" width="161" height="40"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_FlwiYGfTEeyImeFfzO2mjg" type="Comment_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_FlwiYmfTEeyImeFfzO2mjg" type="Comment_BodyLabel"/>
+    <element xmi:type="uml:Comment" href="IoTComponents.profile.uml#_Flv7UGfTEeyImeFfzO2mjg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FlwiYWfTEeyImeFfzO2mjg" x="-260" y="220"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_4l3vEGfTEeyImeFfzO2mjg" type="Stereotype_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_4l4WIGfTEeyImeFfzO2mjg" type="Stereotype_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_4l4WIWfTEeyImeFfzO2mjg" type="Stereotype_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_4l4WImfTEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_4l4WI2fTEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_4l4WJGfTEeyImeFfzO2mjg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4l4WJWfTEeyImeFfzO2mjg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_4l4WJmfTEeyImeFfzO2mjg" type="Stereotype_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_4l4WJ2fTEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_4l4WKGfTEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_4l4WKWfTEeyImeFfzO2mjg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4l4WKmfTEeyImeFfzO2mjg"/>
+    </children>
+    <element xmi:type="uml:Stereotype" href="IoTComponents.profile.uml#_4l2g8GfTEeyImeFfzO2mjg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4l3vEWfTEeyImeFfzO2mjg" x="460" y="440"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_9lwwgGfTEeyImeFfzO2mjg" type="Stereotype_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_9lwwgmfTEeyImeFfzO2mjg" type="Stereotype_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_9lwwg2fTEeyImeFfzO2mjg" type="Stereotype_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_9lwwhGfTEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_9lwwhWfTEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_9lwwhmfTEeyImeFfzO2mjg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9lwwh2fTEeyImeFfzO2mjg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_9lwwiGfTEeyImeFfzO2mjg" type="Stereotype_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_9lwwiWfTEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_9lwwimfTEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_9lwwi2fTEeyImeFfzO2mjg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9lwwjGfTEeyImeFfzO2mjg"/>
+    </children>
+    <element xmi:type="uml:Stereotype" href="IoTComponents.profile.uml#_9lviYGfTEeyImeFfzO2mjg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9lwwgWfTEeyImeFfzO2mjg" x="540" y="600"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_AqP1MGfUEeyImeFfzO2mjg" type="Stereotype_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_AqP1MmfUEeyImeFfzO2mjg" type="Stereotype_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_AqP1M2fUEeyImeFfzO2mjg" type="Stereotype_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_AqP1NGfUEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_AqP1NWfUEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_AqP1NmfUEeyImeFfzO2mjg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AqP1N2fUEeyImeFfzO2mjg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_AqQcQGfUEeyImeFfzO2mjg" type="Stereotype_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_AqQcQWfUEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_AqQcQmfUEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_AqQcQ2fUEeyImeFfzO2mjg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AqQcRGfUEeyImeFfzO2mjg"/>
+    </children>
+    <element xmi:type="uml:Stereotype" href="IoTComponents.profile.uml#_AqPOIGfUEeyImeFfzO2mjg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AqP1MWfUEeyImeFfzO2mjg" x="140" y="440"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_Bx5ZwGfUEeyImeFfzO2mjg" type="Stereotype_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_Bx6A0GfUEeyImeFfzO2mjg" type="Stereotype_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_Bx6A0WfUEeyImeFfzO2mjg" type="Stereotype_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_Bx6A0mfUEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_Bx6A02fUEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_Bx6A1GfUEeyImeFfzO2mjg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bx6A1WfUEeyImeFfzO2mjg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_Bx6A1mfUEeyImeFfzO2mjg" type="Stereotype_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_Bx6A12fUEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_Bx6A2GfUEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_Bx6A2WfUEeyImeFfzO2mjg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bx6A2mfUEeyImeFfzO2mjg"/>
+    </children>
+    <element xmi:type="uml:Stereotype" href="IoTComponents.profile.uml#_Bx4ysGfUEeyImeFfzO2mjg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bx5ZwWfUEeyImeFfzO2mjg" x="320" y="600"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_D3WqYGfUEeyImeFfzO2mjg" type="Stereotype_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_D3WqYmfUEeyImeFfzO2mjg" type="Stereotype_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_D3WqY2fUEeyImeFfzO2mjg" type="Stereotype_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_D3WqZGfUEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_D3WqZWfUEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_D3WqZmfUEeyImeFfzO2mjg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_D3WqZ2fUEeyImeFfzO2mjg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_D3WqaGfUEeyImeFfzO2mjg" type="Stereotype_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_D3WqaWfUEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_D3WqamfUEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_D3Wqa2fUEeyImeFfzO2mjg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_D3WqbGfUEeyImeFfzO2mjg"/>
+    </children>
+    <element xmi:type="uml:Stereotype" href="IoTComponents.profile.uml#_D3WDUGfUEeyImeFfzO2mjg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_D3WqYWfUEeyImeFfzO2mjg" x="120" y="600"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_PIQ98GfUEeyImeFfzO2mjg" type="Stereotype_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_PIQ98mfUEeyImeFfzO2mjg" type="Stereotype_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_PIQ982fUEeyImeFfzO2mjg" type="Stereotype_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_PIQ99GfUEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_PIQ99WfUEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_PIQ99mfUEeyImeFfzO2mjg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PIQ992fUEeyImeFfzO2mjg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_PIQ9-GfUEeyImeFfzO2mjg" type="Stereotype_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_PIQ9-WfUEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_PIQ9-mfUEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_PIQ9-2fUEeyImeFfzO2mjg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PIQ9_GfUEeyImeFfzO2mjg"/>
+    </children>
+    <element xmi:type="uml:Stereotype" href="IoTComponents.profile.uml#_PIQW4GfUEeyImeFfzO2mjg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PIQ98WfUEeyImeFfzO2mjg" x="640" y="440"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_ZSmrAGfUEeyImeFfzO2mjg" type="Stereotype_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_ZSmrAmfUEeyImeFfzO2mjg" type="Stereotype_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_ZSmrA2fUEeyImeFfzO2mjg" type="Stereotype_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_ZSmrBGfUEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ZSmrBWfUEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ZSmrBmfUEeyImeFfzO2mjg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZSmrB2fUEeyImeFfzO2mjg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_ZSmrCGfUEeyImeFfzO2mjg" type="Stereotype_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_ZSmrCWfUEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ZSmrCmfUEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ZSmrC2fUEeyImeFfzO2mjg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZSmrDGfUEeyImeFfzO2mjg"/>
+    </children>
+    <element xmi:type="uml:Stereotype" href="IoTComponents.profile.uml#_ZSlc4GfUEeyImeFfzO2mjg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZSmrAWfUEeyImeFfzO2mjg" x="760" y="440" width="161" height="101"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_eVnR4GfUEeyImeFfzO2mjg" type="Stereotype_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_eVnR4mfUEeyImeFfzO2mjg" type="Stereotype_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_eVnR42fUEeyImeFfzO2mjg" type="Stereotype_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_eVnR5GfUEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_eVnR5WfUEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_eVnR5mfUEeyImeFfzO2mjg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eVnR52fUEeyImeFfzO2mjg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_eVnR6GfUEeyImeFfzO2mjg" type="Stereotype_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_eVnR6WfUEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_eVnR6mfUEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_eVnR62fUEeyImeFfzO2mjg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eVnR7GfUEeyImeFfzO2mjg"/>
+    </children>
+    <element xmi:type="uml:Stereotype" href="IoTComponents.profile.uml#_eVmq0GfUEeyImeFfzO2mjg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eVnR4WfUEeyImeFfzO2mjg" x="940" y="440"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_jhdrsGfUEeyImeFfzO2mjg" type="Stereotype_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_jheSwGfUEeyImeFfzO2mjg" type="Stereotype_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_jheSwWfUEeyImeFfzO2mjg" type="Stereotype_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_jheSwmfUEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_jheSw2fUEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_jheSxGfUEeyImeFfzO2mjg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jheSxWfUEeyImeFfzO2mjg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_jheSxmfUEeyImeFfzO2mjg" type="Stereotype_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_jheSx2fUEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_jheSyGfUEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_jheSyWfUEeyImeFfzO2mjg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jheSymfUEeyImeFfzO2mjg"/>
+    </children>
+    <element xmi:type="uml:Stereotype" href="IoTComponents.profile.uml#_jhdEoGfUEeyImeFfzO2mjg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jhdrsWfUEeyImeFfzO2mjg" x="1160" y="600"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_pe_aEGfUEeyImeFfzO2mjg" type="Stereotype_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_pfABIGfUEeyImeFfzO2mjg" type="Stereotype_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_pfABIWfUEeyImeFfzO2mjg" type="Stereotype_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_pfABImfUEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_pfABI2fUEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_pfABJGfUEeyImeFfzO2mjg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pfABJWfUEeyImeFfzO2mjg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_pfABJmfUEeyImeFfzO2mjg" type="Stereotype_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_pfABJ2fUEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_pfABKGfUEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_pfABKWfUEeyImeFfzO2mjg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pfABKmfUEeyImeFfzO2mjg"/>
+    </children>
+    <element xmi:type="uml:Stereotype" href="IoTComponents.profile.uml#_pe-zAGfUEeyImeFfzO2mjg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pe_aEWfUEeyImeFfzO2mjg" x="1260" y="440"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_yeMJsGfUEeyImeFfzO2mjg" type="Stereotype_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_yeMJsmfUEeyImeFfzO2mjg" type="Stereotype_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_yeMJs2fUEeyImeFfzO2mjg" type="Stereotype_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_yeMJtGfUEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_yeMJtWfUEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_yeMJtmfUEeyImeFfzO2mjg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yeMJt2fUEeyImeFfzO2mjg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_yeMJuGfUEeyImeFfzO2mjg" type="Stereotype_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_yeMJuWfUEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_yeMJumfUEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_yeMJu2fUEeyImeFfzO2mjg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yeMJvGfUEeyImeFfzO2mjg"/>
+    </children>
+    <element xmi:type="uml:Stereotype" href="IoTComponents.profile.uml#_yeLioGfUEeyImeFfzO2mjg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yeMJsWfUEeyImeFfzO2mjg" x="1080" y="440"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_6ezKIGfUEeyImeFfzO2mjg" type="Stereotype_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_6ezKImfUEeyImeFfzO2mjg" type="Stereotype_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_6ezKI2fUEeyImeFfzO2mjg" type="Stereotype_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_6ezKJGfUEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_6ezKJWfUEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_6ezKJmfUEeyImeFfzO2mjg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6ezKJ2fUEeyImeFfzO2mjg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_6ezKKGfUEeyImeFfzO2mjg" type="Stereotype_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_6ezKKWfUEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_6ezKKmfUEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_6ezKK2fUEeyImeFfzO2mjg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6ezKLGfUEeyImeFfzO2mjg"/>
+    </children>
+    <element xmi:type="uml:Stereotype" href="IoTComponents.profile.uml#_6eyjEGfUEeyImeFfzO2mjg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6ezKIWfUEeyImeFfzO2mjg" x="1420" y="440"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_CGt9wGfVEeyImeFfzO2mjg" type="Stereotype_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_CGt9wmfVEeyImeFfzO2mjg" type="Stereotype_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_CGt9w2fVEeyImeFfzO2mjg" type="Stereotype_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_CGt9xGfVEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_CGt9xWfVEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_CGt9xmfVEeyImeFfzO2mjg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CGt9x2fVEeyImeFfzO2mjg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_CGt9yGfVEeyImeFfzO2mjg" type="Stereotype_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_CGt9yWfVEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_CGt9ymfVEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_CGt9y2fVEeyImeFfzO2mjg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CGt9zGfVEeyImeFfzO2mjg"/>
+    </children>
+    <element xmi:type="uml:Stereotype" href="IoTComponents.profile.uml#_CGtWsGfVEeyImeFfzO2mjg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CGt9wWfVEeyImeFfzO2mjg" x="1820" y="600"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_XZGWQGfVEeyImeFfzO2mjg" type="Stereotype_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_XZGWQmfVEeyImeFfzO2mjg" type="Stereotype_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_XZG9UGfVEeyImeFfzO2mjg" type="Stereotype_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_XZG9UWfVEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_XZG9UmfVEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_XZG9U2fVEeyImeFfzO2mjg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XZG9VGfVEeyImeFfzO2mjg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_XZG9VWfVEeyImeFfzO2mjg" type="Stereotype_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_XZG9VmfVEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_XZG9V2fVEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_XZG9WGfVEeyImeFfzO2mjg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XZG9WWfVEeyImeFfzO2mjg"/>
+    </children>
+    <element xmi:type="uml:Stereotype" href="IoTComponents.profile.uml#_XZFvMGfVEeyImeFfzO2mjg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XZGWQWfVEeyImeFfzO2mjg" x="1560" y="440"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_g--EUGfVEeyImeFfzO2mjg" type="Stereotype_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_g--EUmfVEeyImeFfzO2mjg" type="Stereotype_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_g--EU2fVEeyImeFfzO2mjg" type="Stereotype_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_g--EVGfVEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_g--EVWfVEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_g--EVmfVEeyImeFfzO2mjg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_g--EV2fVEeyImeFfzO2mjg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_g--EWGfVEeyImeFfzO2mjg" type="Stereotype_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_g--EWWfVEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_g--EWmfVEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_g--EW2fVEeyImeFfzO2mjg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_g--EXGfVEeyImeFfzO2mjg"/>
+    </children>
+    <element xmi:type="uml:Stereotype" href="IoTComponents.profile.uml#_g-82MGfVEeyImeFfzO2mjg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_g--EUWfVEeyImeFfzO2mjg" x="300" y="440"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_0hMGwGfVEeyImeFfzO2mjg" type="Stereotype_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_0hMGwmfVEeyImeFfzO2mjg" type="Stereotype_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_0hMt0GfVEeyImeFfzO2mjg" type="Stereotype_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_0hMt0WfVEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0hMt0mfVEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0hMt02fVEeyImeFfzO2mjg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0hMt1GfVEeyImeFfzO2mjg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_0hMt1WfVEeyImeFfzO2mjg" type="Stereotype_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_0hMt1mfVEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_0hMt12fVEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_0hMt2GfVEeyImeFfzO2mjg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0hMt2WfVEeyImeFfzO2mjg"/>
+    </children>
+    <element xmi:type="uml:Stereotype" href="IoTComponents.profile.uml#_0hLfsGfVEeyImeFfzO2mjg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0hMGwWfVEeyImeFfzO2mjg" x="800" y="820"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_CCQfEGfWEeyImeFfzO2mjg" type="Stereotype_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_CCQfEmfWEeyImeFfzO2mjg" type="Stereotype_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_CCQfE2fWEeyImeFfzO2mjg" type="Stereotype_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_CCQfFGfWEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_CCQfFWfWEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_CCQfFmfWEeyImeFfzO2mjg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CCQfF2fWEeyImeFfzO2mjg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_CCQfGGfWEeyImeFfzO2mjg" type="Stereotype_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_CCQfGWfWEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_CCQfGmfWEeyImeFfzO2mjg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_CCQfG2fWEeyImeFfzO2mjg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CCQfHGfWEeyImeFfzO2mjg"/>
+    </children>
+    <element xmi:type="uml:Stereotype" href="IoTComponents.profile.uml#_CCP4AGfWEeyImeFfzO2mjg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CCQfEWfWEeyImeFfzO2mjg" x="920" y="820"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_W7-f8GfWEeywMo24Drbvsw" type="Stereotype_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_W7-f8mfWEeywMo24Drbvsw" type="Stereotype_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_W7-f82fWEeywMo24Drbvsw" type="Stereotype_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_W7-f9GfWEeywMo24Drbvsw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_W7-f9WfWEeywMo24Drbvsw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_W7-f9mfWEeywMo24Drbvsw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_W7-f92fWEeywMo24Drbvsw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_W7-f-GfWEeywMo24Drbvsw" type="Stereotype_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_W7-f-WfWEeywMo24Drbvsw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_W7-f-mfWEeywMo24Drbvsw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_W7-f-2fWEeywMo24Drbvsw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_W7-f_GfWEeywMo24Drbvsw"/>
+    </children>
+    <element xmi:type="uml:Stereotype" href="IoTComponents.profile.uml#_W75AYGfWEeywMo24Drbvsw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_W7-f8WfWEeywMo24Drbvsw" x="1060" y="820"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_ah42sGfWEeywMo24Drbvsw" type="Stereotype_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_ah42smfWEeywMo24Drbvsw" type="Stereotype_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_ah5dwGfWEeywMo24Drbvsw" type="Stereotype_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_ah5dwWfWEeywMo24Drbvsw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ah5dwmfWEeywMo24Drbvsw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ah5dw2fWEeywMo24Drbvsw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ah5dxGfWEeywMo24Drbvsw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_ah5dxWfWEeywMo24Drbvsw" type="Stereotype_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_ah5dxmfWEeywMo24Drbvsw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ah5dx2fWEeywMo24Drbvsw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ah5dyGfWEeywMo24Drbvsw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ah5dyWfWEeywMo24Drbvsw"/>
+    </children>
+    <element xmi:type="uml:Stereotype" href="IoTComponents.profile.uml#_ah3okGfWEeywMo24Drbvsw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ah42sWfWEeywMo24Drbvsw" x="1180" y="820"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_e4WgoGfWEeywMo24Drbvsw" type="Stereotype_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_e4WgomfWEeywMo24Drbvsw" type="Stereotype_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_e4Wgo2fWEeywMo24Drbvsw" type="Stereotype_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_e4WgpGfWEeywMo24Drbvsw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_e4WgpWfWEeywMo24Drbvsw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_e4WgpmfWEeywMo24Drbvsw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_e4Wgp2fWEeywMo24Drbvsw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_e4WgqGfWEeywMo24Drbvsw" type="Stereotype_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_e4WgqWfWEeywMo24Drbvsw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_e4WgqmfWEeywMo24Drbvsw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_e4Wgq2fWEeywMo24Drbvsw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_e4WgrGfWEeywMo24Drbvsw"/>
+    </children>
+    <element xmi:type="uml:Stereotype" href="IoTComponents.profile.uml#_e4V5kGfWEeywMo24Drbvsw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_e4WgoWfWEeywMo24Drbvsw" x="1360" y="820"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_fu-moGfWEeywMo24Drbvsw" type="Stereotype_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_fu-momfWEeywMo24Drbvsw" type="Stereotype_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_fu-mo2fWEeywMo24Drbvsw" type="Stereotype_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_fu-mpGfWEeywMo24Drbvsw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_fu-mpWfWEeywMo24Drbvsw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_fu-mpmfWEeywMo24Drbvsw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fu-mp2fWEeywMo24Drbvsw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_fu-mqGfWEeywMo24Drbvsw" type="Stereotype_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_fu-mqWfWEeywMo24Drbvsw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_fu-mqmfWEeywMo24Drbvsw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_fu-mq2fWEeywMo24Drbvsw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fu-mrGfWEeywMo24Drbvsw"/>
+    </children>
+    <element xmi:type="uml:Stereotype" href="IoTComponents.profile.uml#_fu9_kGfWEeywMo24Drbvsw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fu-moWfWEeywMo24Drbvsw" x="1500" y="820"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_lqm3kGfWEeywMo24Drbvsw" type="Stereotype_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_lqm3kmfWEeywMo24Drbvsw" type="Stereotype_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_lqm3k2fWEeywMo24Drbvsw" type="Stereotype_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_lqm3lGfWEeywMo24Drbvsw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_lqm3lWfWEeywMo24Drbvsw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_lqm3lmfWEeywMo24Drbvsw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lqm3l2fWEeywMo24Drbvsw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_lqm3mGfWEeywMo24Drbvsw" type="Stereotype_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_lqm3mWfWEeywMo24Drbvsw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_lqm3mmfWEeywMo24Drbvsw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_lqm3m2fWEeywMo24Drbvsw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lqm3nGfWEeywMo24Drbvsw"/>
+    </children>
+    <element xmi:type="uml:Stereotype" href="IoTComponents.profile.uml#_lqlpcGfWEeywMo24Drbvsw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lqm3kWfWEeywMo24Drbvsw" x="1640" y="820"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_n8lhQGfWEeywMo24Drbvsw" type="Stereotype_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_n8lhQmfWEeywMo24Drbvsw" type="Stereotype_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_n8lhQ2fWEeywMo24Drbvsw" type="Stereotype_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_n8lhRGfWEeywMo24Drbvsw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_n8lhRWfWEeywMo24Drbvsw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_n8lhRmfWEeywMo24Drbvsw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n8lhR2fWEeywMo24Drbvsw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_n8lhSGfWEeywMo24Drbvsw" type="Stereotype_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_n8lhSWfWEeywMo24Drbvsw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_n8lhSmfWEeywMo24Drbvsw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_n8lhS2fWEeywMo24Drbvsw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n8lhTGfWEeywMo24Drbvsw"/>
+    </children>
+    <element xmi:type="uml:Stereotype" href="IoTComponents.profile.uml#_n8kTIGfWEeywMo24Drbvsw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n8lhQWfWEeywMo24Drbvsw" x="1920" y="820"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_pyItoGfWEeywMo24Drbvsw" type="Stereotype_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_pyItomfWEeywMo24Drbvsw" type="Stereotype_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_pyIto2fWEeywMo24Drbvsw" type="Stereotype_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_pyItpGfWEeywMo24Drbvsw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_pyItpWfWEeywMo24Drbvsw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_pyItpmfWEeywMo24Drbvsw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pyItp2fWEeywMo24Drbvsw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_pyItqGfWEeywMo24Drbvsw" type="Stereotype_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_pyItqWfWEeywMo24Drbvsw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_pyItqmfWEeywMo24Drbvsw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_pyItq2fWEeywMo24Drbvsw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pyItrGfWEeywMo24Drbvsw"/>
+    </children>
+    <element xmi:type="uml:Stereotype" href="IoTComponents.profile.uml#_pyHfgGfWEeywMo24Drbvsw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pyItoWfWEeywMo24Drbvsw" x="1800" y="820"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_xituAGfWEeywMo24Drbvsw" type="Stereotype_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_xituAmfWEeywMo24Drbvsw" type="Stereotype_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_xituA2fWEeywMo24Drbvsw" type="Stereotype_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_xituBGfWEeywMo24Drbvsw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_xituBWfWEeywMo24Drbvsw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_xituBmfWEeywMo24Drbvsw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xituB2fWEeywMo24Drbvsw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_xituCGfWEeywMo24Drbvsw" type="Stereotype_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_xituCWfWEeywMo24Drbvsw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_xituCmfWEeywMo24Drbvsw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_xituC2fWEeywMo24Drbvsw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xituDGfWEeywMo24Drbvsw"/>
+    </children>
+    <element xmi:type="uml:Stereotype" href="IoTComponents.profile.uml#_xisf4GfWEeywMo24Drbvsw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xituAWfWEeywMo24Drbvsw" x="2080" y="820"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_yMiuIGfWEeywMo24Drbvsw" type="Stereotype_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_yMiuImfWEeywMo24Drbvsw" type="Stereotype_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_yMiuI2fWEeywMo24Drbvsw" type="Stereotype_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_yMiuJGfWEeywMo24Drbvsw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_yMiuJWfWEeywMo24Drbvsw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_yMiuJmfWEeywMo24Drbvsw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yMiuJ2fWEeywMo24Drbvsw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_yMiuKGfWEeywMo24Drbvsw" type="Stereotype_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_yMiuKWfWEeywMo24Drbvsw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_yMiuKmfWEeywMo24Drbvsw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_yMiuK2fWEeywMo24Drbvsw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yMiuLGfWEeywMo24Drbvsw"/>
+    </children>
+    <element xmi:type="uml:Stereotype" href="IoTComponents.profile.uml#_yMhgAGfWEeywMo24Drbvsw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yMiuIWfWEeywMo24Drbvsw" x="2200" y="820"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_zEseIGfWEeywMo24Drbvsw" type="Stereotype_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_zEtFMGfWEeywMo24Drbvsw" type="Stereotype_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_zEtFMWfWEeywMo24Drbvsw" type="Stereotype_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_zEtFMmfWEeywMo24Drbvsw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_zEtFM2fWEeywMo24Drbvsw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_zEtFNGfWEeywMo24Drbvsw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zEtFNWfWEeywMo24Drbvsw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_zEtFNmfWEeywMo24Drbvsw" type="Stereotype_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_zEtFN2fWEeywMo24Drbvsw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_zEtFOGfWEeywMo24Drbvsw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_zEtFOWfWEeywMo24Drbvsw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zEtFOmfWEeywMo24Drbvsw"/>
+    </children>
+    <element xmi:type="uml:Stereotype" href="IoTComponents.profile.uml#_zEr3EGfWEeywMo24Drbvsw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zEseIWfWEeywMo24Drbvsw" x="2320" y="820"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_7tguEGfWEeywMo24Drbvsw" type="Stereotype_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_7tguEmfWEeywMo24Drbvsw" type="Stereotype_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_7tguE2fWEeywMo24Drbvsw" type="Stereotype_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_7tguFGfWEeywMo24Drbvsw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_7tguFWfWEeywMo24Drbvsw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_7tguFmfWEeywMo24Drbvsw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7tguF2fWEeywMo24Drbvsw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_7tguGGfWEeywMo24Drbvsw" type="Stereotype_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_7tguGWfWEeywMo24Drbvsw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_7tguGmfWEeywMo24Drbvsw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_7tguG2fWEeywMo24Drbvsw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7tguHGfWEeywMo24Drbvsw"/>
+    </children>
+    <element xmi:type="uml:Stereotype" href="IoTComponents.profile.uml#_7tff8GfWEeywMo24Drbvsw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7tguEWfWEeywMo24Drbvsw" x="360" y="820"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_8QXjgGfWEeywMo24Drbvsw" type="Stereotype_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_8QXjgmfWEeywMo24Drbvsw" type="Stereotype_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_8QXjg2fWEeywMo24Drbvsw" type="Stereotype_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_8QXjhGfWEeywMo24Drbvsw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_8QXjhWfWEeywMo24Drbvsw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_8QXjhmfWEeywMo24Drbvsw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8QXjh2fWEeywMo24Drbvsw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_8QXjiGfWEeywMo24Drbvsw" type="Stereotype_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_8QXjiWfWEeywMo24Drbvsw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_8QXjimfWEeywMo24Drbvsw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_8QXji2fWEeywMo24Drbvsw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8QXjjGfWEeywMo24Drbvsw"/>
+    </children>
+    <element xmi:type="uml:Stereotype" href="IoTComponents.profile.uml#_8QWVYGfWEeywMo24Drbvsw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8QXjgWfWEeywMo24Drbvsw" x="480" y="820"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_Bgag0GfXEeywMo24Drbvsw" type="Stereotype_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_Bgag0mfXEeywMo24Drbvsw" type="Stereotype_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_Bgag02fXEeywMo24Drbvsw" type="Stereotype_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_Bgag1GfXEeywMo24Drbvsw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_Bgag1WfXEeywMo24Drbvsw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_Bgag1mfXEeywMo24Drbvsw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bgag12fXEeywMo24Drbvsw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_Bgag2GfXEeywMo24Drbvsw" type="Stereotype_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_Bgag2WfXEeywMo24Drbvsw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_Bgag2mfXEeywMo24Drbvsw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_Bgag22fXEeywMo24Drbvsw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bgag3GfXEeywMo24Drbvsw"/>
+    </children>
+    <element xmi:type="uml:Stereotype" href="IoTComponents.profile.uml#_BgZSsGfXEeywMo24Drbvsw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bgag0WfXEeywMo24Drbvsw" x="160" y="820"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_CfBeIGfXEeywMo24Drbvsw" type="Stereotype_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_CfBeImfXEeywMo24Drbvsw" type="Stereotype_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_CfBeI2fXEeywMo24Drbvsw" type="Stereotype_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_CfBeJGfXEeywMo24Drbvsw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_CfBeJWfXEeywMo24Drbvsw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_CfBeJmfXEeywMo24Drbvsw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CfBeJ2fXEeywMo24Drbvsw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_CfBeKGfXEeywMo24Drbvsw" type="Stereotype_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_CfBeKWfXEeywMo24Drbvsw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_CfBeKmfXEeywMo24Drbvsw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_CfBeK2fXEeywMo24Drbvsw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CfBeLGfXEeywMo24Drbvsw"/>
+    </children>
+    <element xmi:type="uml:Stereotype" href="IoTComponents.profile.uml#_CfAQAGfXEeywMo24Drbvsw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CfBeIWfXEeywMo24Drbvsw" x="160" y="980"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_F-fOoGfXEeywMo24Drbvsw" type="Stereotype_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_F-fOomfXEeywMo24Drbvsw" type="Stereotype_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_F-fOo2fXEeywMo24Drbvsw" type="Stereotype_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_F-fOpGfXEeywMo24Drbvsw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_F-fOpWfXEeywMo24Drbvsw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_F-fOpmfXEeywMo24Drbvsw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_F-fOp2fXEeywMo24Drbvsw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_F-fOqGfXEeywMo24Drbvsw" type="Stereotype_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_F-fOqWfXEeywMo24Drbvsw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_F-fOqmfXEeywMo24Drbvsw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_F-fOq2fXEeywMo24Drbvsw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_F-fOrGfXEeywMo24Drbvsw"/>
+    </children>
+    <element xmi:type="uml:Stereotype" href="IoTComponents.profile.uml#_F-eAgGfXEeywMo24Drbvsw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_F-fOoWfXEeywMo24Drbvsw" x="320" y="980"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_PLB2sGfXEeywMo24Drbvsw" type="Stereotype_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_PLCdwGfXEeywMo24Drbvsw" type="Stereotype_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_PLCdwWfXEeywMo24Drbvsw" type="Stereotype_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_PLCdwmfXEeywMo24Drbvsw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_PLCdw2fXEeywMo24Drbvsw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_PLCdxGfXEeywMo24Drbvsw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PLCdxWfXEeywMo24Drbvsw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_PLCdxmfXEeywMo24Drbvsw" type="Stereotype_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_PLCdx2fXEeywMo24Drbvsw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_PLCdyGfXEeywMo24Drbvsw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_PLCdyWfXEeywMo24Drbvsw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PLCdymfXEeywMo24Drbvsw"/>
+    </children>
+    <element xmi:type="uml:Stereotype" href="IoTComponents.profile.uml#_PLBPoGfXEeywMo24Drbvsw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PLB2sWfXEeywMo24Drbvsw" x="140" y="1180"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_P23B8GfXEeywMo24Drbvsw" type="Stereotype_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_P23B8mfXEeywMo24Drbvsw" type="Stereotype_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_P23B82fXEeywMo24Drbvsw" type="Stereotype_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_P23B9GfXEeywMo24Drbvsw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_P23B9WfXEeywMo24Drbvsw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_P23B9mfXEeywMo24Drbvsw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_P23B92fXEeywMo24Drbvsw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_P23B-GfXEeywMo24Drbvsw" type="Stereotype_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_P23B-WfXEeywMo24Drbvsw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_P23B-mfXEeywMo24Drbvsw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_P23B-2fXEeywMo24Drbvsw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_P23B_GfXEeywMo24Drbvsw"/>
+    </children>
+    <element xmi:type="uml:Stereotype" href="IoTComponents.profile.uml#_P21z0GfXEeywMo24Drbvsw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_P23B8WfXEeywMo24Drbvsw" x="260" y="1180"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_Q1kF4GfXEeywMo24Drbvsw" type="Stereotype_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_Q1kF4mfXEeywMo24Drbvsw" type="Stereotype_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_Q1kF42fXEeywMo24Drbvsw" type="Stereotype_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_Q1kF5GfXEeywMo24Drbvsw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_Q1kF5WfXEeywMo24Drbvsw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_Q1kF5mfXEeywMo24Drbvsw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Q1kF52fXEeywMo24Drbvsw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_Q1kF6GfXEeywMo24Drbvsw" type="Stereotype_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_Q1kF6WfXEeywMo24Drbvsw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_Q1kF6mfXEeywMo24Drbvsw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_Q1kF62fXEeywMo24Drbvsw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Q1kF7GfXEeywMo24Drbvsw"/>
+    </children>
+    <element xmi:type="uml:Stereotype" href="IoTComponents.profile.uml#_Q1i3wGfXEeywMo24Drbvsw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Q1kF4WfXEeywMo24Drbvsw" x="380" y="1180"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_RvuBAGfXEeywMo24Drbvsw" type="Stereotype_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_RvuBAmfXEeywMo24Drbvsw" type="Stereotype_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_RvuBA2fXEeywMo24Drbvsw" type="Stereotype_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_RvuBBGfXEeywMo24Drbvsw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_RvuBBWfXEeywMo24Drbvsw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_RvuBBmfXEeywMo24Drbvsw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RvuBB2fXEeywMo24Drbvsw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_RvuBCGfXEeywMo24Drbvsw" type="Stereotype_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_RvuBCWfXEeywMo24Drbvsw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_RvuBCmfXEeywMo24Drbvsw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_RvuBC2fXEeywMo24Drbvsw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RvuBDGfXEeywMo24Drbvsw"/>
+    </children>
+    <element xmi:type="uml:Stereotype" href="IoTComponents.profile.uml#_Rvsy4GfXEeywMo24Drbvsw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RvuBAWfXEeywMo24Drbvsw" x="500" y="1180"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_SfNeEGf0EeydhfWpBowbSA" type="Comment_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_SfRvgGf0EeydhfWpBowbSA" type="Comment_BodyLabel"/>
+    <element xmi:type="uml:Comment" href="IoTComponents.profile.uml#_SeeeQGf0EeydhfWpBowbSA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SfNeEWf0EeydhfWpBowbSA" x="-100" y="460"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_TxeXMGf0EeydhfWpBowbSA" type="Comment_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_TxeXMmf0EeydhfWpBowbSA" type="Comment_BodyLabel"/>
+    <element xmi:type="uml:Comment" href="IoTComponents.profile.uml#_TxdJEGf0EeydhfWpBowbSA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TxeXMWf0EeydhfWpBowbSA" x="-180" y="840"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_ynUqAGf0EeydhfWpBowbSA" type="Comment_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_ynVREGf0EeydhfWpBowbSA" type="Comment_BodyLabel"/>
+    <element xmi:type="uml:Comment" href="IoTComponents.profile.uml#_ynTb4Gf0EeydhfWpBowbSA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ynUqAWf0EeydhfWpBowbSA" x="1140" y="80"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_96Hz8Gf0EeydhfWpBowbSA" type="Class_MetaclassShape">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_96JpIGf0EeydhfWpBowbSA" source="Stereotype_Annotation">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_96JpIWf0EeydhfWpBowbSA" key="StereotypeWithQualifiedNameList" value=""/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_96JpImf0EeydhfWpBowbSA" key="StereotypeList" value="StandardProfile::Metaclass"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_96JpI2f0EeydhfWpBowbSA" key="Stereotype_Presentation_Kind" value="HorizontalStereo"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_96JpJGf0EeydhfWpBowbSA" key="PropStereoDisplay" value=""/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_96KQMGf0EeydhfWpBowbSA" key="StereotypePropertyLocation" value="Compartment"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_96Hz8mf0EeydhfWpBowbSA" type="Class_MetaclassNameLabel"/>
+    <element xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_96Hz82f0EeydhfWpBowbSA" x="560" y="80"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_aOGm8Gf1EeydhfWpBowbSA" type="Class_MetaclassShape">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_aOHOAGf1EeydhfWpBowbSA" source="Stereotype_Annotation">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_aOHOAWf1EeydhfWpBowbSA" key="StereotypeWithQualifiedNameList" value=""/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_aOHOAmf1EeydhfWpBowbSA" key="StereotypeList" value="StandardProfile::Metaclass"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_aOHOA2f1EeydhfWpBowbSA" key="Stereotype_Presentation_Kind" value="HorizontalStereo"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_aOHOBGf1EeydhfWpBowbSA" key="PropStereoDisplay" value=""/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_aOHOBWf1EeydhfWpBowbSA" key="StereotypePropertyLocation" value="Compartment"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_aOGm8mf1EeydhfWpBowbSA" type="Class_MetaclassNameLabel"/>
+    <element xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Association"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aOGm82f1EeydhfWpBowbSA" x="220" y="80"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_ERd7EGf2EeydhfWpBowbSA" type="Comment_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_ERd7Emf2EeydhfWpBowbSA" type="Comment_BodyLabel"/>
+    <element xmi:type="uml:Comment" href="IoTComponents.profile.uml#_ERdUAGf2EeydhfWpBowbSA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ERd7EWf2EeydhfWpBowbSA" x="520" y="980"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_1CtO4MwvEeyKa7qv6r8wbw" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="_1CtO4cwvEeyKa7qv6r8wbw"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_1CtO48wvEeyKa7qv6r8wbw" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1CtO4swvEeyKa7qv6r8wbw" x="760" y="80"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_1Cz8k8wvEeyKa7qv6r8wbw" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="_1Cz8lMwvEeyKa7qv6r8wbw"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_1C0joMwvEeyKa7qv6r8wbw" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Association"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1Cz8lcwvEeyKa7qv6r8wbw" x="420" y="80"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_GggjsMxKEeyKa7qv6r8wbw" type="Class_MetaclassShape">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GghKwMxKEeyKa7qv6r8wbw" source="Stereotype_Annotation">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GghKwcxKEeyKa7qv6r8wbw" key="StereotypeWithQualifiedNameList" value=""/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GghKwsxKEeyKa7qv6r8wbw" key="StereotypeList" value="StandardProfile::Metaclass"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GghKw8xKEeyKa7qv6r8wbw" key="Stereotype_Presentation_Kind" value="HorizontalStereo"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GghKxMxKEeyKa7qv6r8wbw" key="PropStereoDisplay" value=""/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GghKxcxKEeyKa7qv6r8wbw" key="StereotypePropertyLocation" value="Compartment"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_GggjssxKEeyKa7qv6r8wbw" type="Class_MetaclassNameLabel"/>
+    <element xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Interface"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Gggjs8xKEeyKa7qv6r8wbw" x="720" y="80"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_GgmqU8xKEeyKa7qv6r8wbw" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="_GgmqVMxKEeyKa7qv6r8wbw"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_GgmqVsxKEeyKa7qv6r8wbw" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Interface"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GgmqVcxKEeyKa7qv6r8wbw" x="1420" y="80"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_VUWXoWfSEeyImeFfzO2mjg" name="diagram_compatibility_version" stringValue="1.4.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_VUWXomfSEeyImeFfzO2mjg"/>
+  <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_VUWXo2fSEeyImeFfzO2mjg" diagramKindId="org.eclipse.papyrus.uml.diagram.profile">
+    <owner xmi:type="uml:Profile" href="IoTComponents.profile.uml#_L42GgGfSEeyImeFfzO2mjg"/>
+  </styles>
+  <element xmi:type="uml:Profile" href="IoTComponents.profile.uml#_L42GgGfSEeyImeFfzO2mjg"/>
+  <edges xmi:type="notation:Connector" xmi:id="_HO_7oGfUEeyImeFfzO2mjg" type="Generalization_Edge" source="_Bx5ZwGfUEeyImeFfzO2mjg" target="_AqP1MGfUEeyImeFfzO2mjg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_HO_7o2fUEeyImeFfzO2mjg" type="Generalization_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_LdANIGfUEeyImeFfzO2mjg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_HO_7pGfUEeyImeFfzO2mjg" x="-1" y="59"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_HO_7oWfUEeyImeFfzO2mjg"/>
+    <element xmi:type="uml:Generalization" href="IoTComponents.profile.uml#_HOu14GfUEeyImeFfzO2mjg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_HO_7omfUEeyImeFfzO2mjg" points="[510, 610, -643984, -643984]$[470, 450, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_HPSPgGfUEeyImeFfzO2mjg" id="(0.4968944099378882,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_HPSPgWfUEeyImeFfzO2mjg" id="(0.6,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_H3AW0GfUEeyImeFfzO2mjg" type="Generalization_Edge" source="_D3WqYGfUEeyImeFfzO2mjg" target="_AqP1MGfUEeyImeFfzO2mjg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_H3A94GfUEeyImeFfzO2mjg" type="Generalization_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_LdRS4GfUEeyImeFfzO2mjg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_H3A94WfUEeyImeFfzO2mjg" x="43" y="132"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_H3AW0WfUEeyImeFfzO2mjg"/>
+    <element xmi:type="uml:Generalization" href="IoTComponents.profile.uml#_H2xGQGfUEeyImeFfzO2mjg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_H3AW0mfUEeyImeFfzO2mjg" points="[270, 710, -643984, -643984]$[430, 510, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_H3SDoGfUEeyImeFfzO2mjg" id="(0.4878048780487805,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_H3SDoWfUEeyImeFfzO2mjg" id="(0.6,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_IeyIgGfUEeyImeFfzO2mjg" type="Generalization_Edge" source="_9lwwgGfTEeyImeFfzO2mjg" target="_4l3vEGfTEeyImeFfzO2mjg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_IeyIg2fUEeyImeFfzO2mjg" type="Generalization_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_L_l80GfUEeyImeFfzO2mjg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_IeyvkGfUEeyImeFfzO2mjg" x="-109" y="105"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_IeyIgWfUEeyImeFfzO2mjg"/>
+    <element xmi:type="uml:Generalization" href="IoTComponents.profile.uml#_Ieo-kGfUEeyImeFfzO2mjg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_IeyIgmfUEeyImeFfzO2mjg" points="[420, 600, -643984, -643984]$[420, 440, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_IfAyAGfUEeyImeFfzO2mjg" id="(0.5102040816326531,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_IfAyAWfUEeyImeFfzO2mjg" id="(0.4,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_JH8aQGfUEeyImeFfzO2mjg" type="Generalization_Edge" source="_AqP1MGfUEeyImeFfzO2mjg" target="_oHqFoGfSEeyImeFfzO2mjg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_JH8aQ2fUEeyImeFfzO2mjg" type="Generalization_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_LdHh4GfUEeyImeFfzO2mjg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_JH8aRGfUEeyImeFfzO2mjg" x="-1" y="58"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_JH8aQWfUEeyImeFfzO2mjg"/>
+    <element xmi:type="uml:Generalization" href="IoTComponents.profile.uml#_JHnqIGfUEeyImeFfzO2mjg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_JH8aQmfUEeyImeFfzO2mjg" points="[980, 440, -643984, -643984]$[280, 300, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_JIP8QGfUEeyImeFfzO2mjg" id="(0.4,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_JIP8QWfUEeyImeFfzO2mjg" id="(0.6,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_KhF-gGfUEeyImeFfzO2mjg" type="Generalization_Edge" source="_4l3vEGfTEeyImeFfzO2mjg" target="_r9zQwGfSEeyImeFfzO2mjg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_KhGlkGfUEeyImeFfzO2mjg" type="Generalization_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_L_dZ8GfUEeyImeFfzO2mjg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_KhGlkWfUEeyImeFfzO2mjg" y="59"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_KhF-gWfUEeyImeFfzO2mjg"/>
+    <element xmi:type="uml:Generalization" href="IoTComponents.profile.uml#_Kg_Q0GfUEeyImeFfzO2mjg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_KhF-gmfUEeyImeFfzO2mjg" points="[360, 500, -643984, -643984]$[480, 260, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KhVPEGfUEeyImeFfzO2mjg" id="(0.4,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KhVPEWfUEeyImeFfzO2mjg" id="(0.8,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_QWXIwGfUEeyImeFfzO2mjg" type="Generalization_Edge" source="_PIQ98GfUEeyImeFfzO2mjg" target="_r9zQwGfSEeyImeFfzO2mjg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_QWXIw2fUEeyImeFfzO2mjg" type="Generalization_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_XYqt4GfUEeyImeFfzO2mjg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_QWXIxGfUEeyImeFfzO2mjg" x="-1" y="58"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_QWXIwWfUEeyImeFfzO2mjg"/>
+    <element xmi:type="uml:Generalization" href="IoTComponents.profile.uml#_QWBxkGfUEeyImeFfzO2mjg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_QWXIwmfUEeyImeFfzO2mjg" points="[760, 460, -643984, -643984]$[480, 260, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_QWtHAGfUEeyImeFfzO2mjg" id="(0.6,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_QWtHAWfUEeyImeFfzO2mjg" id="(0.6,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_f3IH8GfUEeyImeFfzO2mjg" type="Generalization_Edge" source="_ZSmrAGfUEeyImeFfzO2mjg" target="_yxFicGfSEeyImeFfzO2mjg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_f3IvAGfUEeyImeFfzO2mjg" type="Generalization_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_iMm8IGfVEeyImeFfzO2mjg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_f3IvAWfUEeyImeFfzO2mjg" y="59"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_f3IH8WfUEeyImeFfzO2mjg"/>
+    <element xmi:type="uml:Generalization" href="IoTComponents.profile.uml#_f210EGfUEeyImeFfzO2mjg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_f3IH8mfUEeyImeFfzO2mjg" points="[720, 440, -643984, -643984]$[600, 300, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_f3c4EGfUEeyImeFfzO2mjg" id="(0.49689440993788775,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_f3dfIGfUEeyImeFfzO2mjg" id="(0.6,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_gy83AGfUEeyImeFfzO2mjg" type="Generalization_Edge" source="_eVnR4GfUEeyImeFfzO2mjg" target="_yxFicGfSEeyImeFfzO2mjg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_gy9eEGfUEeyImeFfzO2mjg" type="Generalization_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_iNklcGfVEeyImeFfzO2mjg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_gy9eEWfUEeyImeFfzO2mjg" x="-1" y="57"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_gy83AWfUEeyImeFfzO2mjg"/>
+    <element xmi:type="uml:Generalization" href="IoTComponents.profile.uml#_gyp8EGfUEeyImeFfzO2mjg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_gy83AmfUEeyImeFfzO2mjg" points="[880, 440, -643984, -643984]$[620, 300, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_gzRAEGfUEeyImeFfzO2mjg" id="(0.5607476635514018,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_gzRAEWfUEeyImeFfzO2mjg" id="(0.8,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_lZiAkGfUEeyImeFfzO2mjg" type="Generalization_Edge" source="_jhdrsGfUEeyImeFfzO2mjg" target="_PIQ98GfUEeyImeFfzO2mjg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_lZiAk2fUEeyImeFfzO2mjg" type="Generalization_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_iMzwcGfVEeyImeFfzO2mjg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_lZiAlGfUEeyImeFfzO2mjg" x="-1" y="58"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_lZiAkWfUEeyImeFfzO2mjg"/>
+    <element xmi:type="uml:Generalization" href="IoTComponents.profile.uml#_lZQ60GfUEeyImeFfzO2mjg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_lZiAkmfUEeyImeFfzO2mjg" points="[780, 600, -643984, -643984]$[580, 540, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_lZx4MGfUEeyImeFfzO2mjg" id="(0.0,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_lZx4MWfUEeyImeFfzO2mjg" id="(0.6,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_q0ZGwGfUEeyImeFfzO2mjg" type="Generalization_Edge" source="_pe_aEGfUEeyImeFfzO2mjg" target="_1ULxUGfSEeyImeFfzO2mjg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_q0ZGw2fUEeyImeFfzO2mjg" type="Generalization_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_soJjYGfUEeyImeFfzO2mjg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_q0ZGxGfUEeyImeFfzO2mjg" x="-1" y="58"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_q0ZGwWfUEeyImeFfzO2mjg"/>
+    <element xmi:type="uml:Generalization" href="IoTComponents.profile.uml#_q0FkwGfUEeyImeFfzO2mjg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_q0ZGwmfUEeyImeFfzO2mjg" points="[1120, 480, -643984, -643984]$[940, 300, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_q0t24GfUEeyImeFfzO2mjg" id="(0.4,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_q0t24WfUEeyImeFfzO2mjg" id="(0.8,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_sKVmAGfUEeyImeFfzO2mjg" type="Generalization_Edge" source="_pe_aEGfUEeyImeFfzO2mjg" target="_oHqFoGfSEeyImeFfzO2mjg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_sKVmA2fUEeyImeFfzO2mjg" type="Generalization_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_soSGQGfUEeyImeFfzO2mjg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_sKVmBGfUEeyImeFfzO2mjg" x="1" y="58"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_sKVmAWfUEeyImeFfzO2mjg"/>
+    <element xmi:type="uml:Generalization" href="IoTComponents.profile.uml#_sKAO0GfUEeyImeFfzO2mjg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sKVmAmfUEeyImeFfzO2mjg" points="[1100, 480, -643984, -643984]$[280, 300, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sKvOoGfUEeyImeFfzO2mjg" id="(0.2,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sKv1sGfUEeyImeFfzO2mjg" id="(0.6,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_2-Te4GfUEeyImeFfzO2mjg" type="Generalization_Edge" source="_yeMJsGfUEeyImeFfzO2mjg" target="_0po_gGfSEeyImeFfzO2mjg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_2-Te42fUEeyImeFfzO2mjg" type="Generalization_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_iMau4GfVEeyImeFfzO2mjg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_2-Te5GfUEeyImeFfzO2mjg" x="-1" y="57"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_2-Te4WfUEeyImeFfzO2mjg"/>
+    <element xmi:type="uml:Generalization" href="IoTComponents.profile.uml#_2-Aj8GfUEeyImeFfzO2mjg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_2-Te4mfUEeyImeFfzO2mjg" points="[1000, 440, -643984, -643984]$[740, 300, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2-o2EGfUEeyImeFfzO2mjg" id="(0.37383177570093457,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2-o2EWfUEeyImeFfzO2mjg" id="(0.4,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_9g5pMGfUEeyImeFfzO2mjg" type="Generalization_Edge" source="_6ezKIGfUEeyImeFfzO2mjg" target="_r9zQwGfSEeyImeFfzO2mjg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_9g5pM2fUEeyImeFfzO2mjg" type="Generalization_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_98PhYGfUEeyImeFfzO2mjg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_9g5pNGfUEeyImeFfzO2mjg" x="1" y="58"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_9g5pMWfUEeyImeFfzO2mjg"/>
+    <element xmi:type="uml:Generalization" href="IoTComponents.profile.uml#_9gmuQGfUEeyImeFfzO2mjg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_9g5pMmfUEeyImeFfzO2mjg" points="[1320, 460, -643984, -643984]$[460, 300, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9hOZUGfUEeyImeFfzO2mjg" id="(0.4,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9hOZUWfUEeyImeFfzO2mjg" id="(0.8,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_DNIMMGfVEeyImeFfzO2mjg" type="Generalization_Edge" source="_CGt9wGfVEeyImeFfzO2mjg" target="_6ezKIGfUEeyImeFfzO2mjg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_DNIMM2fVEeyImeFfzO2mjg" type="Generalization_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_DfXLsGfVEeyImeFfzO2mjg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_DNIMNGfVEeyImeFfzO2mjg" x="1787" y="-128"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_DNIMMWfVEeyImeFfzO2mjg"/>
+    <element xmi:type="uml:Generalization" href="IoTComponents.profile.uml#_DMvxsGfVEeyImeFfzO2mjg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_DNIMMmfVEeyImeFfzO2mjg" points="[1380, 620, -643984, -643984]$[1340, 540, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_DNjC8GfVEeyImeFfzO2mjg" id="(0.2,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_DNjC8WfVEeyImeFfzO2mjg" id="(0.4,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_GfacUGfVEeyImeFfzO2mjg" type="Generalization_Edge" source="_jhdrsGfUEeyImeFfzO2mjg" target="_6ezKIGfUEeyImeFfzO2mjg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_GfacU2fVEeyImeFfzO2mjg" type="Generalization_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_iNXKEGfVEeyImeFfzO2mjg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_GfacVGfVEeyImeFfzO2mjg" x="76" y="74"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_GfacUWfVEeyImeFfzO2mjg"/>
+    <element xmi:type="uml:Generalization" href="IoTComponents.profile.uml#_GfIIcGfVEeyImeFfzO2mjg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_GfacUmfVEeyImeFfzO2mjg" points="[860, 600, -643984, -643984]$[1320, 540, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_GfvzgGfVEeyImeFfzO2mjg" id="(0.8,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_GfwakGfVEeyImeFfzO2mjg" id="(0.2,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_a-AAYGfVEeyImeFfzO2mjg" type="Generalization_Edge" source="_XZGWQGfVEeyImeFfzO2mjg" target="_0po_gGfSEeyImeFfzO2mjg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_a-AAY2fVEeyImeFfzO2mjg" type="Generalization_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_iNAkwGfVEeyImeFfzO2mjg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_a-AAZGfVEeyImeFfzO2mjg" x="-1" y="58"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_a-AAYWfVEeyImeFfzO2mjg"/>
+    <element xmi:type="uml:Generalization" href="IoTComponents.profile.uml#_a9o0AGfVEeyImeFfzO2mjg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_a-AAYmfVEeyImeFfzO2mjg" points="[1440, 440, -643984, -643984]$[780, 300, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_a-Xz0GfVEeyImeFfzO2mjg" id="(0.0,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_a-Ya4GfVEeyImeFfzO2mjg" id="(0.8,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_cekbQGfVEeyImeFfzO2mjg" type="Generalization_Edge" source="_XZGWQGfVEeyImeFfzO2mjg" target="_r9zQwGfSEeyImeFfzO2mjg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_cekbQ2fVEeyImeFfzO2mjg" type="Generalization_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_iNKVwGfVEeyImeFfzO2mjg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_cekbRGfVEeyImeFfzO2mjg" x="1" y="58"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_cekbQWfVEeyImeFfzO2mjg"/>
+    <element xmi:type="uml:Generalization" href="IoTComponents.profile.uml#_ceY1EGfVEeyImeFfzO2mjg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_cekbQmfVEeyImeFfzO2mjg" points="[1460, 440, -643984, -643984]$[400, 300, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ce4kUGfVEeyImeFfzO2mjg" id="(0.2,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ce4kUWfVEeyImeFfzO2mjg" id="(0.2,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_khiMIGfVEeyImeFfzO2mjg" type="Generalization_Edge" source="_g--EUGfVEeyImeFfzO2mjg" target="_r9zQwGfSEeyImeFfzO2mjg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_khiMI2fVEeyImeFfzO2mjg" type="Generalization_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_khiMJGfVEeyImeFfzO2mjg" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_khiMIWfVEeyImeFfzO2mjg"/>
+    <element xmi:type="uml:Generalization" href="IoTComponents.profile.uml#_khP4QGfVEeyImeFfzO2mjg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_khiMImfVEeyImeFfzO2mjg" points="[380, 440, -643984, -643984]$[440, 300, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_kh4KYGfVEeyImeFfzO2mjg" id="(0.8,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_kh4KYWfVEeyImeFfzO2mjg" id="(0.6,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_--5bwGfVEeyImeFfzO2mjg" type="Generalization_Edge" source="_0hMGwGfVEeyImeFfzO2mjg" target="_ZSmrAGfUEeyImeFfzO2mjg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_--5bw2fVEeyImeFfzO2mjg" type="Generalization_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="__ZBL8GfVEeyImeFfzO2mjg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_--5bxGfVEeyImeFfzO2mjg" x="-1" y="59"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_--5bwWfVEeyImeFfzO2mjg"/>
+    <element xmi:type="uml:Generalization" href="IoTComponents.profile.uml#_--dW4GfVEeyImeFfzO2mjg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_--5bwmfVEeyImeFfzO2mjg" points="[900, 900, -643984, -643984]$[840, 540, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-_QoIGfVEeyImeFfzO2mjg" id="(0.4,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-_QoIWfVEeyImeFfzO2mjg" id="(0.4968944099378882,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_U5uUUGfWEeywMo24Drbvsw" type="Generalization_Edge" source="_CCQfEGfWEeyImeFfzO2mjg" target="_ZSmrAGfUEeyImeFfzO2mjg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_U5wwkGfWEeywMo24Drbvsw" type="Generalization_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_VffT0GfWEeywMo24Drbvsw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_U5wwkWfWEeywMo24Drbvsw" y="59"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_U5uUUWfWEeywMo24Drbvsw"/>
+    <element xmi:type="uml:Generalization" href="IoTComponents.profile.uml#_U4XCYGfWEeywMo24Drbvsw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_U5uUUmfWEeywMo24Drbvsw" points="[1020, 860, -643984, -643984]$[880, 540, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_U7XTEGfWEeywMo24Drbvsw" id="(0.36363636363636365,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_U7XTEWfWEeywMo24Drbvsw" id="(0.7453416149068323,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_ZGMUwGfWEeywMo24Drbvsw" type="Generalization_Edge" source="_W7-f8GfWEeywMo24Drbvsw" target="_eVnR4GfUEeyImeFfzO2mjg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_ZGM70GfWEeywMo24Drbvsw" type="Generalization_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_ZGM70WfWEeywMo24Drbvsw" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_ZGMUwWfWEeywMo24Drbvsw"/>
+    <element xmi:type="uml:Generalization" href="IoTComponents.profile.uml#_ZFpiMGfWEeywMo24Drbvsw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ZGMUwmfWEeywMo24Drbvsw" points="[1120, 820, -643984, -643984]$[980, 540, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ZGz_0GfWEeywMo24Drbvsw" id="(0.6,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ZGz_0WfWEeywMo24Drbvsw" id="(0.37383177570093457,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_cqqhEGfWEeywMo24Drbvsw" type="Generalization_Edge" source="_ah42sGfWEeywMo24Drbvsw" target="_jhdrsGfUEeyImeFfzO2mjg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_cqqhE2fWEeywMo24Drbvsw" type="Generalization_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_d6dVAGfWEeywMo24Drbvsw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_cqqhFGfWEeywMo24Drbvsw" x="-1" y="58"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_cqqhEWfWEeywMo24Drbvsw"/>
+    <element xmi:type="uml:Generalization" href="IoTComponents.profile.uml#_cqErMGfWEeywMo24Drbvsw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_cqqhEmfWEeywMo24Drbvsw" points="[1320, 820, -643984, -643984]$[1220, 700, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_crNToGfWEeywMo24Drbvsw" id="(0.4,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_crNToWfWEeywMo24Drbvsw" id="(0.6,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_hGvDwGfWEeywMo24Drbvsw" type="Generalization_Edge" source="_e4WgoGfWEeywMo24Drbvsw" target="_pe_aEGfUEeyImeFfzO2mjg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_hGvDw2fWEeywMo24Drbvsw" type="Generalization_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_hGvDxGfWEeywMo24Drbvsw" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_hGvDwWfWEeywMo24Drbvsw"/>
+    <element xmi:type="uml:Generalization" href="IoTComponents.profile.uml#_hGS-4GfWEeywMo24Drbvsw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_hGvDwmfWEeywMo24Drbvsw" points="[1400, 820, -643984, -643984]$[1300, 540, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_hHPaEGfWEeywMo24Drbvsw" id="(0.4,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_hHPaEWfWEeywMo24Drbvsw" id="(0.4,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_iCQ34GfWEeywMo24Drbvsw" type="Generalization_Edge" source="_fu-moGfWEeywMo24Drbvsw" target="_pe_aEGfUEeyImeFfzO2mjg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_iCQ342fWEeywMo24Drbvsw" type="Generalization_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_iCQ35GfWEeywMo24Drbvsw" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_iCQ34WfWEeywMo24Drbvsw"/>
+    <element xmi:type="uml:Generalization" href="IoTComponents.profile.uml#_iBwhkGfWEeywMo24Drbvsw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_iCQ34mfWEeywMo24Drbvsw" points="[1540, 820, -643984, -643984]$[1320, 540, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_iCxOMGfWEeywMo24Drbvsw" id="(0.4,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_iCxOMWfWEeywMo24Drbvsw" id="(0.6,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_tc8LcGfWEeywMo24Drbvsw" type="Generalization_Edge" source="_lqm3kGfWEeywMo24Drbvsw" target="_6ezKIGfUEeyImeFfzO2mjg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_tc8ygGfWEeywMo24Drbvsw" type="Generalization_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_tc8ygWfWEeywMo24Drbvsw" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_tc8LcWfWEeywMo24Drbvsw"/>
+    <element xmi:type="uml:Generalization" href="IoTComponents.profile.uml#_tcb1IGfWEeywMo24Drbvsw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_tc8LcmfWEeywMo24Drbvsw" points="[1700, 820, -643984, -643984]$[1460, 540, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_tdgMIGfWEeywMo24Drbvsw" id="(0.40540540540540543,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_tdgMIWfWEeywMo24Drbvsw" id="(0.4,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_uA_6wGfWEeywMo24Drbvsw" type="Generalization_Edge" source="_pyItoGfWEeywMo24Drbvsw" target="_6ezKIGfUEeyImeFfzO2mjg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_uBAh0GfWEeywMo24Drbvsw" type="Generalization_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_uBAh0WfWEeywMo24Drbvsw" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_uA_6wWfWEeywMo24Drbvsw"/>
+    <element xmi:type="uml:Generalization" href="IoTComponents.profile.uml#_uAkc8GfWEeywMo24Drbvsw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_uA_6wmfWEeywMo24Drbvsw" points="[1840, 820, -643984, -643984]$[1460, 540, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uBfqAGfWEeywMo24Drbvsw" id="(0.4,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uBfqAWfWEeywMo24Drbvsw" id="(0.4,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_ufYf4GfWEeywMo24Drbvsw" type="Generalization_Edge" source="_n8lhQGfWEeywMo24Drbvsw" target="_6ezKIGfUEeyImeFfzO2mjg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_ufYf42fWEeywMo24Drbvsw" type="Generalization_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_ufYf5GfWEeywMo24Drbvsw" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_ufYf4WfWEeywMo24Drbvsw"/>
+    <element xmi:type="uml:Generalization" href="IoTComponents.profile.uml#_ue6l0GfWEeywMo24Drbvsw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ufYf4mfWEeywMo24Drbvsw" points="[1980, 820, -643984, -643984]$[1480, 540, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uf6EUGfWEeywMo24Drbvsw" id="(0.47244094488188976,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uf6EUWfWEeywMo24Drbvsw" id="(0.6,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_3CBPUGfWEeywMo24Drbvsw" type="Generalization_Edge" source="_xituAGfWEeywMo24Drbvsw" target="_CGt9wGfVEeyImeFfzO2mjg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_3CB2YGfWEeywMo24Drbvsw" type="Generalization_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_3CB2YWfWEeywMo24Drbvsw" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_3CBPUWfWEeywMo24Drbvsw"/>
+    <element xmi:type="uml:Generalization" href="IoTComponents.profile.uml#_3BjVQGfWEeywMo24Drbvsw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_3CBPUmfWEeywMo24Drbvsw" points="[2140, 820, -643984, -643984]$[1880, 700, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3CiMsGfWEeywMo24Drbvsw" id="(0.6,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3CiMsWfWEeywMo24Drbvsw" id="(0.6,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_3hVBgGfWEeywMo24Drbvsw" type="Generalization_Edge" source="_yMiuIGfWEeywMo24Drbvsw" target="_CGt9wGfVEeyImeFfzO2mjg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_3hVBg2fWEeywMo24Drbvsw" type="Generalization_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_3hVBhGfWEeywMo24Drbvsw" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_3hVBgWfWEeywMo24Drbvsw"/>
+    <element xmi:type="uml:Generalization" href="IoTComponents.profile.uml#_3g3HcGfWEeywMo24Drbvsw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_3hVBgmfWEeywMo24Drbvsw" points="[2260, 820, -643984, -643984]$[1880, 700, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3h1X0GfWEeywMo24Drbvsw" id="(0.6,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3h1X0WfWEeywMo24Drbvsw" id="(0.6,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_4Ar3AGfWEeywMo24Drbvsw" type="Generalization_Edge" source="_zEseIGfWEeywMo24Drbvsw" target="_CGt9wGfVEeyImeFfzO2mjg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_4Ar3A2fWEeywMo24Drbvsw" type="Generalization_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_4Ar3BGfWEeywMo24Drbvsw" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_4Ar3AWfWEeywMo24Drbvsw"/>
+    <element xmi:type="uml:Generalization" href="IoTComponents.profile.uml#_4AWf0GfWEeywMo24Drbvsw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_4Ar3AmfWEeywMo24Drbvsw" points="[2421, 860, -643984, -643984]$[1880, 700, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4BNbcGfWEeywMo24Drbvsw" id="(0.39215686274509803,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4BNbcWfWEeywMo24Drbvsw" id="(0.6,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_9rDY0GfWEeywMo24Drbvsw" type="Generalization_Edge" source="_7tguEGfWEeywMo24Drbvsw" target="_g--EUGfVEeyImeFfzO2mjg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_9rDY02fWEeywMo24Drbvsw" type="Generalization_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_9rDY1GfWEeywMo24Drbvsw" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_9rDY0WfWEeywMo24Drbvsw"/>
+    <element xmi:type="uml:Generalization" href="IoTComponents.profile.uml#_9qkQoGfWEeywMo24Drbvsw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_9rDY0mfWEeywMo24Drbvsw" points="[400, 800, -643984, -643984]$[360, 540, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9rk9QGfWEeywMo24Drbvsw" id="(0.4,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9rlkUGfWEeywMo24Drbvsw" id="(0.6,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_-a0o4GfWEeywMo24Drbvsw" type="Generalization_Edge" source="_8QXjgGfWEeywMo24Drbvsw" target="_g--EUGfVEeyImeFfzO2mjg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_-a1P8GfWEeywMo24Drbvsw" type="Generalization_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_-6wGIGfWEeywMo24Drbvsw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_-a1P8WfWEeywMo24Drbvsw" x="-1" y="58"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_-a0o4WfWEeywMo24Drbvsw"/>
+    <element xmi:type="uml:Generalization" href="IoTComponents.profile.uml#_-aR2UGfWEeywMo24Drbvsw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_-a0o4mfWEeywMo24Drbvsw" points="[580, 840, -643984, -643984]$[360, 540, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-bXbcGfWEeywMo24Drbvsw" id="(0.4,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-bXbcWfWEeywMo24Drbvsw" id="(0.6,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_EnWckGfXEeywMo24Drbvsw" type="Generalization_Edge" source="_CfBeIGfXEeywMo24Drbvsw" target="_Bgag0GfXEeywMo24Drbvsw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_EnXDoGfXEeywMo24Drbvsw" type="Generalization_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_EnXDoWfXEeywMo24Drbvsw" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_EnWckWfXEeywMo24Drbvsw"/>
+    <element xmi:type="uml:Generalization" href="IoTComponents.profile.uml#_Em3UYGfXEeywMo24Drbvsw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_EnWckmfXEeywMo24Drbvsw" points="[200, 980, -643984, -643984]$[200, 920, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_En2y4GfXEeywMo24Drbvsw" id="(0.4,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_En2y4WfXEeywMo24Drbvsw" id="(0.4,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_FKx5wGfXEeywMo24Drbvsw" type="Generalization_Edge" source="_Bgag0GfXEeywMo24Drbvsw" target="_AqP1MGfUEeyImeFfzO2mjg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_FKx5w2fXEeywMo24Drbvsw" type="Generalization_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_FKx5xGfXEeywMo24Drbvsw" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_FKx5wWfXEeywMo24Drbvsw"/>
+    <element xmi:type="uml:Generalization" href="IoTComponents.profile.uml#_FKN5EGfXEeywMo24Drbvsw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_FKx5wmfXEeywMo24Drbvsw" points="[220, 820, -643984, -643984]$[200, 540, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FLS3IGfXEeywMo24Drbvsw" id="(0.6,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FLS3IWfXEeywMo24Drbvsw" id="(0.6,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_Hs7tcGfXEeywMo24Drbvsw" type="Generalization_Edge" source="_F-fOoGfXEeywMo24Drbvsw" target="_AqP1MGfUEeyImeFfzO2mjg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_Hs7tc2fXEeywMo24Drbvsw" type="Generalization_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_IGvUkGfXEeywMo24Drbvsw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Hs7tdGfXEeywMo24Drbvsw" x="-1" y="58"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_Hs7tcWfXEeywMo24Drbvsw"/>
+    <element xmi:type="uml:Generalization" href="IoTComponents.profile.uml#_HsY64GfXEeywMo24Drbvsw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Hs7tcmfXEeywMo24Drbvsw" points="[520, 1000, -643984, -643984]$[200, 540, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_HtdR4GfXEeywMo24Drbvsw" id="(0.6,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_HtdR4WfXEeywMo24Drbvsw" id="(0.6,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_VzlfEGfXEeywMo24Drbvsw" type="Generalization_Edge" source="_PLB2sGfXEeywMo24Drbvsw" target="_F-fOoGfXEeywMo24Drbvsw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_VzmGIGfXEeywMo24Drbvsw" type="Generalization_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_VzmGIWfXEeywMo24Drbvsw" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_VzlfEWfXEeywMo24Drbvsw"/>
+    <element xmi:type="uml:Generalization" href="IoTComponents.profile.uml#_VzDTkGfXEeywMo24Drbvsw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_VzlfEmfXEeywMo24Drbvsw" points="[180, 1180, -643984, -643984]$[360, 1080, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_V0JfwGfXEeywMo24Drbvsw" id="(0.4,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_V0JfwWfXEeywMo24Drbvsw" id="(0.4,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_WTZnkGfXEeywMo24Drbvsw" type="Generalization_Edge" source="_P23B8GfXEeywMo24Drbvsw" target="_F-fOoGfXEeywMo24Drbvsw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_WTZnk2fXEeywMo24Drbvsw" type="Generalization_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_WTZnlGfXEeywMo24Drbvsw" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_WTZnkWfXEeywMo24Drbvsw"/>
+    <element xmi:type="uml:Generalization" href="IoTComponents.profile.uml#_WS4qMGfXEeywMo24Drbvsw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_WTZnkmfXEeywMo24Drbvsw" points="[320, 1180, -643984, -643984]$[360, 1080, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_WT8aIGfXEeywMo24Drbvsw" id="(0.6,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_WT8aIWfXEeywMo24Drbvsw" id="(0.4,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_WtWYoGfXEeywMo24Drbvsw" type="Generalization_Edge" source="_Q1kF4GfXEeywMo24Drbvsw" target="_F-fOoGfXEeywMo24Drbvsw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_WtWYo2fXEeywMo24Drbvsw" type="Generalization_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_WtWYpGfXEeywMo24Drbvsw" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_WtWYoWfXEeywMo24Drbvsw"/>
+    <element xmi:type="uml:Generalization" href="IoTComponents.profile.uml#_Ws7h4GfXEeywMo24Drbvsw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_WtWYomfXEeywMo24Drbvsw" points="[440, 1180, -643984, -643984]$[360, 1080, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Wt_44GfXEeywMo24Drbvsw" id="(0.6,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Wt_44WfXEeywMo24Drbvsw" id="(0.4,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_XUvv0GfXEeywMo24Drbvsw" type="Generalization_Edge" source="_RvuBAGfXEeywMo24Drbvsw" target="_F-fOoGfXEeywMo24Drbvsw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_XUwW4GfXEeywMo24Drbvsw" type="Generalization_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_XUwW4WfXEeywMo24Drbvsw" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_XUvv0WfXEeywMo24Drbvsw"/>
+    <element xmi:type="uml:Generalization" href="IoTComponents.profile.uml#_XUfRIGfXEeywMo24Drbvsw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_XUvv0mfXEeywMo24Drbvsw" points="[560, 1180, -643984, -643984]$[360, 1080, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XVQtMGfXEeywMo24Drbvsw" id="(0.6,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XVQtMWfXEeywMo24Drbvsw" id="(0.4,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_4jyBYGf0EeydhfWpBowbSA" type="Comment_AnnotatedElementEdge" source="_ynUqAGf0EeydhfWpBowbSA" target="_2EjeUGfSEeyImeFfzO2mjg">
+    <styles xmi:type="notation:FontStyle" xmi:id="_4jyBYWf0EeydhfWpBowbSA"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_4jyBYmf0EeydhfWpBowbSA" points="[1340, 120, -643984, -643984]$[1080, 200, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4k6p0Gf0EeydhfWpBowbSA" id="(0.2955665024630542,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4k6p0Wf0EeydhfWpBowbSA" id="(0.6,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_ceacsGf1EeydhfWpBowbSA" type="Extension_Edge" source="_oHqFoGfSEeyImeFfzO2mjg" target="_96Hz8Gf0EeydhfWpBowbSA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_ceacsWf1EeydhfWpBowbSA"/>
+    <element xmi:type="uml:Extension" href="IoTComponents.profile.uml#_cXf8YGf1EeydhfWpBowbSA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ceacsmf1EeydhfWpBowbSA" points="[220, 240, -643984, -643984]$[140, 200, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_cfYGAGf1EeydhfWpBowbSA" id="(0.8,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_cfYGAWf1EeydhfWpBowbSA" id="(0.0,0.96)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_dIlbEGf1EeydhfWpBowbSA" type="Extension_Edge" source="_r9zQwGfSEeyImeFfzO2mjg" target="_96Hz8Gf0EeydhfWpBowbSA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_dIlbEWf1EeydhfWpBowbSA"/>
+    <element xmi:type="uml:Extension" href="IoTComponents.profile.uml#_dHl8kGf1EeydhfWpBowbSA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dIlbEmf1EeydhfWpBowbSA" points="[420, 300, -643984, -643984]$[120, 249, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dJdk0Gf1EeydhfWpBowbSA" id="(0.6,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dJdk0Wf1EeydhfWpBowbSA" id="(0.6,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_d_TnsGf1EeydhfWpBowbSA" type="Extension_Edge" source="_yxFicGfSEeyImeFfzO2mjg" target="_96Hz8Gf0EeydhfWpBowbSA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_d_TnsWf1EeydhfWpBowbSA"/>
+    <element xmi:type="uml:Extension" href="IoTComponents.profile.uml#_d-w1IGf1EeydhfWpBowbSA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_d_Tnsmf1EeydhfWpBowbSA" points="[600, 300, -643984, -643984]$[140, 249, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_eAG48Gf1EeydhfWpBowbSA" id="(0.4,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_eAG48Wf1EeydhfWpBowbSA" id="(0.8,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_ei75MGf1EeydhfWpBowbSA" type="Extension_Edge" source="_0po_gGfSEeyImeFfzO2mjg" target="_96Hz8Gf0EeydhfWpBowbSA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_ei75MWf1EeydhfWpBowbSA"/>
+    <element xmi:type="uml:Extension" href="IoTComponents.profile.uml#_eiQjwGf1EeydhfWpBowbSA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ei75Mmf1EeydhfWpBowbSA" points="[800, 280, -643984, -643984]$[140, 249, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ejujYGf1EeydhfWpBowbSA" id="(0.2,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ejujYWf1EeydhfWpBowbSA" id="(0.8,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_fSfG0Gf1EeydhfWpBowbSA" type="Extension_Edge" source="_1ULxUGfSEeyImeFfzO2mjg" target="_96Hz8Gf0EeydhfWpBowbSA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_fSfG0Wf1EeydhfWpBowbSA"/>
+    <element xmi:type="uml:Extension" href="IoTComponents.profile.uml#_fRx8MGf1EeydhfWpBowbSA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_fSfG0mf1EeydhfWpBowbSA" points="[860, 260, -643984, -643984]$[620, 129, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_fTPUwGf1EeydhfWpBowbSA" id="(0.2,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_fTPUwWf1EeydhfWpBowbSA" id="(0.6,0.96)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_gHCwQGf1EeydhfWpBowbSA" type="Extension_Edge" source="_2EjeUGfSEeyImeFfzO2mjg" target="_96Hz8Gf0EeydhfWpBowbSA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_gHCwQWf1EeydhfWpBowbSA"/>
+    <element xmi:type="uml:Extension" href="IoTComponents.profile.uml#_gGVloGf1EeydhfWpBowbSA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_gHCwQmf1EeydhfWpBowbSA" points="[1020, 260, -643984, -643984]$[100, 200, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_gH0MUGf1EeydhfWpBowbSA" id="(0.2,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_gH0MUWf1EeydhfWpBowbSA" id="(0.8,0.96)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_g71qQGf1EeydhfWpBowbSA" type="Extension_Edge" source="_oHqFoGfSEeyImeFfzO2mjg" target="_aOGm8Gf1EeydhfWpBowbSA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_g71qQWf1EeydhfWpBowbSA"/>
+    <element xmi:type="uml:Extension" href="IoTComponents.profile.uml#_g7PNUGf1EeydhfWpBowbSA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_g71qQmf1EeydhfWpBowbSA" points="[320, 240, -643984, -643984]$[120, 189, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_g8i04Gf1EeydhfWpBowbSA" id="(0.6,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_g8i04Wf1EeydhfWpBowbSA" id="(0.6,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_iL3HsGf1EeydhfWpBowbSA" type="Extension_Edge" source="_r9zQwGfSEeyImeFfzO2mjg" target="_aOGm8Gf1EeydhfWpBowbSA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_iL3HsWf1EeydhfWpBowbSA"/>
+    <element xmi:type="uml:Extension" href="IoTComponents.profile.uml#_iLMZUGf1EeydhfWpBowbSA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_iL3Hsmf1EeydhfWpBowbSA" points="[480, 240, -643984, -643984]$[120, 189, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_iMmukGf1EeydhfWpBowbSA" id="(0.4,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_iMmukWf1EeydhfWpBowbSA" id="(0.6,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_A6R80Gf2EeydhfWpBowbSA" type="Generalization_Edge" source="_F-fOoGfXEeywMo24Drbvsw" target="_g--EUGfVEeyImeFfzO2mjg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_A6R802f2EeydhfWpBowbSA" type="Generalization_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_Bpmg8Gf2EeydhfWpBowbSA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_A6R81Gf2EeydhfWpBowbSA" y="58"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_A6R80Wf2EeydhfWpBowbSA"/>
+    <element xmi:type="uml:Generalization" href="IoTComponents.profile.uml#_A5w_cGf2EeydhfWpBowbSA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_A6R80mf2EeydhfWpBowbSA" points="[360, 980, -643984, -643984]$[680, 900, -643984, -643984]$[480, 580, -643984, -643984]$[360, 540, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_A7D_8Gf2EeydhfWpBowbSA" id="(0.4,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_A7D_8Wf2EeydhfWpBowbSA" id="(0.6,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_Dx5DIGf2EeydhfWpBowbSA" type="Generalization_Edge" source="_F-fOoGfXEeywMo24Drbvsw" target="_jhdrsGfUEeyImeFfzO2mjg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_Dx5qMGf2EeydhfWpBowbSA" type="Generalization_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_sURqIGx_EeywnKZqGitfGg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Dx5qMWf2EeydhfWpBowbSA" y="59"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_Dx5DIWf2EeydhfWpBowbSA"/>
+    <element xmi:type="uml:Generalization" href="IoTComponents.profile.uml#_DxW3oGf2EeydhfWpBowbSA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Dx5DImf2EeydhfWpBowbSA" points="[360, 980, -643984, -643984]$[1180, 700, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_DyoqAGf2EeydhfWpBowbSA" id="(0.4,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_DypREGf2EeydhfWpBowbSA" id="(0.2,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_PxqAwGf2EeydhfWpBowbSA" type="Comment_AnnotatedElementEdge" source="_ERd7EGf2EeydhfWpBowbSA" target="_Dx5DIGf2EeydhfWpBowbSA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_PxqAwWf2EeydhfWpBowbSA"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_PxqAwmf2EeydhfWpBowbSA" points="[740, 1040, -643984, -643984]$[770, 839, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_PyaOsGf2EeydhfWpBowbSA" id="(0.6432748538011696,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_PyaOsWf2EeydhfWpBowbSA" id="(0.4982290436835891,0.4983922829581994)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_S20a4Gf2EeydhfWpBowbSA" type="Comment_AnnotatedElementEdge" source="_ERd7EGf2EeydhfWpBowbSA" target="_A6R80Gf2EeydhfWpBowbSA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_S20a4Wf2EeydhfWpBowbSA"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_S20a4mf2EeydhfWpBowbSA" points="[587, 542, -643984, -643984]$[564, 487, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_S3qvcGf2EeydhfWpBowbSA" id="(0.4678362573099415,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_S3qvcWf2EeydhfWpBowbSA" id="(1.0,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_1CtO5MwvEeyKa7qv6r8wbw" type="StereotypeCommentLink" source="_96Hz8Gf0EeydhfWpBowbSA" target="_1CtO4MwvEeyKa7qv6r8wbw">
+    <styles xmi:type="notation:FontStyle" xmi:id="_1CtO5cwvEeyKa7qv6r8wbw"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_1Ct18swvEeyKa7qv6r8wbw" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_1CtO5swvEeyKa7qv6r8wbw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1Ct18MwvEeyKa7qv6r8wbw"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1Ct18cwvEeyKa7qv6r8wbw"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_1C0jocwvEeyKa7qv6r8wbw" type="StereotypeCommentLink" source="_aOGm8Gf1EeydhfWpBowbSA" target="_1Cz8k8wvEeyKa7qv6r8wbw">
+    <styles xmi:type="notation:FontStyle" xmi:id="_1C0joswvEeyKa7qv6r8wbw"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_1C0jpswvEeyKa7qv6r8wbw" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Association"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_1C0jo8wvEeyKa7qv6r8wbw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1C0jpMwvEeyKa7qv6r8wbw"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1C0jpcwvEeyKa7qv6r8wbw"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="__56DIMxJEeyKa7qv6r8wbw" type="Generalization_Edge" source="_AqP1MGfUEeyImeFfzO2mjg" target="_1ULxUGfSEeyImeFfzO2mjg">
+    <children xmi:type="notation:DecorationNode" xmi:id="__56qMMxJEeyKa7qv6r8wbw" type="Generalization_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="__56qMcxJEeyKa7qv6r8wbw" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="__56DIcxJEeyKa7qv6r8wbw"/>
+    <element xmi:type="uml:Generalization" href="IoTComponents.profile.uml#__yGyAMxJEeyKa7qv6r8wbw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="__56DIsxJEeyKa7qv6r8wbw" points="[220, 440, -643984, -643984]$[900, 300, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_AHw48MxKEeyKa7qv6r8wbw" id="(0.8,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_AHw48cxKEeyKa7qv6r8wbw" id="(0.4,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_GgmqV8xKEeyKa7qv6r8wbw" type="StereotypeCommentLink" source="_GggjsMxKEeyKa7qv6r8wbw" target="_GgmqU8xKEeyKa7qv6r8wbw">
+    <styles xmi:type="notation:FontStyle" xmi:id="_GgmqWMxKEeyKa7qv6r8wbw"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_GgmqXMxKEeyKa7qv6r8wbw" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Interface"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_GgmqWcxKEeyKa7qv6r8wbw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_GgmqWsxKEeyKa7qv6r8wbw"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_GgmqW8xKEeyKa7qv6r8wbw"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_IFkdAMxKEeyKa7qv6r8wbw" type="Extension_Edge" source="_oHqFoGfSEeyImeFfzO2mjg" target="_GggjsMxKEeyKa7qv6r8wbw">
+    <styles xmi:type="notation:FontStyle" xmi:id="_IFkdAcxKEeyKa7qv6r8wbw"/>
+    <element xmi:type="uml:Extension" href="IoTComponents.profile.uml#_H-XBwMxKEeyKa7qv6r8wbw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_IFkdAsxKEeyKa7qv6r8wbw" points="[320, 220, -643984, -643984]$[760, 130, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_IS_N8MxKEeyKa7qv6r8wbw" id="(1.0,0.2)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_IS_N8cxKEeyKa7qv6r8wbw" id="(0.4,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_JcZGAMxKEeyKa7qv6r8wbw" type="Extension_Edge" source="_r9zQwGfSEeyImeFfzO2mjg" target="_GggjsMxKEeyKa7qv6r8wbw">
+    <styles xmi:type="notation:FontStyle" xmi:id="_JcZGAcxKEeyKa7qv6r8wbw"/>
+    <element xmi:type="uml:Extension" href="IoTComponents.profile.uml#_JVHZUMxKEeyKa7qv6r8wbw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_JcZGAsxKEeyKa7qv6r8wbw" points="[480, 240, -643984, -643984]$[720, 120, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Jp7ywMxKEeyKa7qv6r8wbw" id="(1.0,0.4)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Jp7ywcxKEeyKa7qv6r8wbw" id="(0.0,0.8)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_KhE2IMxKEeyKa7qv6r8wbw" type="Extension_Edge" source="_yxFicGfSEeyImeFfzO2mjg" target="_GggjsMxKEeyKa7qv6r8wbw">
+    <styles xmi:type="notation:FontStyle" xmi:id="_KhE2IcxKEeyKa7qv6r8wbw"/>
+    <element xmi:type="uml:Extension" href="IoTComponents.profile.uml#_KZ86cMxKEeyKa7qv6r8wbw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_KhE2IsxKEeyKa7qv6r8wbw" points="[580, 200, -643984, -643984]$[760, 130, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Kur0UMxKEeyKa7qv6r8wbw" id="(0.4,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KusbYMxKEeyKa7qv6r8wbw" id="(0.4,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_L_16MMxKEeyKa7qv6r8wbw" type="Extension_Edge" source="_0po_gGfSEeyImeFfzO2mjg" target="_GggjsMxKEeyKa7qv6r8wbw">
+    <styles xmi:type="notation:FontStyle" xmi:id="_L_16McxKEeyKa7qv6r8wbw"/>
+    <element xmi:type="uml:Extension" href="IoTComponents.profile.uml#_L4q7MMxKEeyKa7qv6r8wbw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_L_16MsxKEeyKa7qv6r8wbw" points="[800, 220, -643984, -643984]$[780, 80, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_MNYm8MxKEeyKa7qv6r8wbw" id="(0.8,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_MNYm8cxKEeyKa7qv6r8wbw" id="(0.6,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_M_OTkMxKEeyKa7qv6r8wbw" type="Extension_Edge" source="_1ULxUGfSEeyImeFfzO2mjg" target="_GggjsMxKEeyKa7qv6r8wbw">
+    <styles xmi:type="notation:FontStyle" xmi:id="_M_OTkcxKEeyKa7qv6r8wbw"/>
+    <element xmi:type="uml:Extension" href="IoTComponents.profile.uml#_M4Qv8MxKEeyKa7qv6r8wbw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_M_OTksxKEeyKa7qv6r8wbw" points="[960, 240, -643984, -643984]$[820, 100, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_NMkzEMxKEeyKa7qv6r8wbw" id="(1.0,0.4)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_NMkzEcxKEeyKa7qv6r8wbw" id="(1.0,0.4)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_ODiQQMxKEeyKa7qv6r8wbw" type="Extension_Edge" source="_2EjeUGfSEeyImeFfzO2mjg" target="_GggjsMxKEeyKa7qv6r8wbw">
+    <styles xmi:type="notation:FontStyle" xmi:id="_ODiQQcxKEeyKa7qv6r8wbw"/>
+    <element xmi:type="uml:Extension" href="IoTComponents.profile.uml#_N8iQYMxKEeyKa7qv6r8wbw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ODiQQsxKEeyKa7qv6r8wbw" points="[1060, 200, -643984, -643984]$[800, 130, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ORInYMxKEeyKa7qv6r8wbw" id="(0.4,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ORInYcxKEeyKa7qv6r8wbw" id="(0.8,1.0)"/>
+  </edges>
+</notation:Diagram>

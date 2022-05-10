@@ -1,0 +1,71 @@
+[appliedStereotypes~=AAS]{
+    fillColor: #acc59e;
+    fontColor: #008080;
+}
+[appliedStereotypes~=AAS-SubModel]{
+    fillColor: #acc59e;
+    fontColor: #008080;
+}
+[appliedStereotypes~=AAS-Element]{
+    fillColor: #acc59e;
+    fontColor: #008080;
+}
+[appliedStereotypes~=Northbound-AAS]{
+    fillColor: #acc59e;
+    fontColor: #008080;
+}
+[appliedStereotypes~=Southbound-AAS]{
+    fillColor: #acc59e;
+    fontColor: #008080;
+}
+[appliedStereotypes~=AAS-Endpoint]{
+    fillColor:#acc59e;
+    fontColor: #008080;
+}
+[appliedStereotypes~=Cloud]{
+    fillColor: #02c9c9;
+    fontColor: #008080;
+}
+[appliedStereotypes~=IDS]{
+    fillColor: #02c9c9;
+    fontColor: #008080;
+}
+[appliedStereotypes~=AAS-Property]{
+    fontColor: #008080;
+}
+[appliedStereotypes~=AAS-Operation]{
+    fontColor: #008080;
+}
+[appliedStereotypes~=AAS-SubModel]{
+    fontColor: #008080;
+}
+[appliedStereotypes~=Distributable]{
+    fontColor: #ff8040;
+}
+Comment[appliedStereotypes~=Issue]{
+	fillColor: #f55043
+}
+Comment[appliedStereotypes~="Advanced Design"]{
+	fillColor: #e3e38d
+}
+Comment[appliedStereotypes~="Design Completed"]{
+	fillColor: #e3e38d
+}
+Comment[appliedStereotypes~=Experimental]{
+	fillColor: #e8f609
+}
+Comment[appliedStereotypes~=Initial]{
+	fillColor: #e3e38d
+}
+Comment[appliedStereotypes~=Implemented]{
+	fillColor: #a8c29a
+}
+Comment[appliedStereotypes~=Completed]{
+	fillColor: #a8c29a
+}
+[appliedStereotypes~=Omitted]{
+	fillColor: #f55043
+}
+Property[appliedStereotypes~=Omitted] {
+	fontColor: #ff0000;
+}

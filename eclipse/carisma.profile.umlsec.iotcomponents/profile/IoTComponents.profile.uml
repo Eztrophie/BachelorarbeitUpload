@@ -1,0 +1,862 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Ecore="http://www.eclipse.org/uml2/schemas/Ecore/5" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/uml2/schemas/Ecore/5 pathmap://UML_PROFILES/Ecore.profile.uml#_z1OFcHjqEdy8S4Cr8Rc_NA">
+  <uml:Profile xmi:id="_L42GgGfSEeyImeFfzO2mjg" name="IoTComponents" metaclassReference="_96Gl0Gf0EeydhfWpBowbSA _aOF_4Gf1EeydhfWpBowbSA _GgfVkMxKEeyKa7qv6r8wbw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ThGZgGyBEeywnKZqGitfGg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_V6xXcKBGEeyvAslvmZZvsw" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_V6xXcaBGEeyvAslvmZZvsw" key="Version" value="0.0.0"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_V6xXcqBGEeyvAslvmZZvsw" key="Comment" value="&lt;undefined>"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_V6xXc6BGEeyvAslvmZZvsw" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_V6xXdKBGEeyvAslvmZZvsw" key="Date" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_V6xXdaBGEeyvAslvmZZvsw" key="Author" value="&lt;undefined>"/>
+      </eAnnotations>
+      <contents xmi:type="ecore:EPackage" xmi:id="_74fr4KBGEeyvAslvmZZvsw" name="model" nsURI="http:///schemas/model/_74d2sKBGEeyvAslvmZZvsw/2" nsPrefix="model">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_74ivMKBGEeyvAslvmZZvsw" source="PapyrusVersion">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_74ivMaBGEeyvAslvmZZvsw" key="Version" value="0.0.3"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_74ivMqBGEeyvAslvmZZvsw" key="Comment" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_74ivM6BGEeyvAslvmZZvsw" key="Copyright" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_74ivNKBGEeyvAslvmZZvsw" key="Date" value="2022-03-10"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_74ivNaBGEeyvAslvmZZvsw" key="Author" value=""/>
+        </eAnnotations>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_74fr4aBGEeyvAslvmZZvsw" name="confidentiality">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_74fr4qBGEeyvAslvmZZvsw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_oHYY0GfSEeyImeFfzO2mjg"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_74fr46BGEeyvAslvmZZvsw" name="base_confidentiality_Class" ordered="false">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_74fr5KBGEeyvAslvmZZvsw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_74fr5aBGEeyvAslvmZZvsw" key="originalName" value="base_Class"/>
+            </eAnnotations>
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_74fr56BGEeyvAslvmZZvsw" name="base_Association" ordered="false">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Association"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_74fr6aBGEeyvAslvmZZvsw" name="integrity">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_74fr6qBGEeyvAslvmZZvsw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_r9yCoGfSEeyImeFfzO2mjg"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_74fr66BGEeyvAslvmZZvsw" name="base_integrity_Class" ordered="false">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_74fr7KBGEeyvAslvmZZvsw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_74fr7aBGEeyvAslvmZZvsw" key="originalName" value="base_Class"/>
+            </eAnnotations>
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_74gS8aBGEeyvAslvmZZvsw" name="base_integrity_Association" ordered="false">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_74gS8qBGEeyvAslvmZZvsw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_74gS86BGEeyvAslvmZZvsw" key="originalName" value="base_Association"/>
+            </eAnnotations>
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Association"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_74gS9aBGEeyvAslvmZZvsw" name="availability">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_74gS9qBGEeyvAslvmZZvsw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_yxEUUGfSEeyImeFfzO2mjg"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_74gS96BGEeyvAslvmZZvsw" name="base_Class" ordered="false">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_74gS-aBGEeyvAslvmZZvsw" name="transparency">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_74gS-qBGEeyvAslvmZZvsw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_0poYcGfSEeyImeFfzO2mjg"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_74gS-6BGEeyvAslvmZZvsw" name="base_Class" ordered="false">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_74gS_aBGEeyvAslvmZZvsw" name="unlinkability">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_74gS_qBGEeyvAslvmZZvsw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_1ULKQGfSEeyImeFfzO2mjg"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_74gS_6BGEeyvAslvmZZvsw" name="base_Class" ordered="false">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_74gTAaBGEeyvAslvmZZvsw" name="intervenability">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_74gTAqBGEeyvAslvmZZvsw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_2EiQMGfSEeyImeFfzO2mjg"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_74gTA6BGEeyvAslvmZZvsw" name="base_Class" ordered="false">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_74gTBaBGEeyvAslvmZZvsw" name="securitypatches" eSuperTypes="_74fr6aBGEeyvAslvmZZvsw">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_74gTBqBGEeyvAslvmZZvsw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_4l2g8GfTEeyImeFfzO2mjg"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_74gTCKBGEeyvAslvmZZvsw" name="automaticpatchmanagement" eSuperTypes="_74gTBaBGEeyvAslvmZZvsw">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_74gTCaBGEeyvAslvmZZvsw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_9lviYGfTEeyImeFfzO2mjg">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_74gTCqBGEeyvAslvmZZvsw" key="originalName" value="automatic patchmanagement"/>
+          </eAnnotations>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_74gTDKBGEeyvAslvmZZvsw" name="encryption" eSuperTypes="_74fr4aBGEeyvAslvmZZvsw">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_74gTDaBGEeyvAslvmZZvsw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_AqPOIGfUEeyImeFfzO2mjg"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_74gTD6BGEeyvAslvmZZvsw" name="encryptedconfiguration" eSuperTypes="_74gTDKBGEeyvAslvmZZvsw">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_74gTEKBGEeyvAslvmZZvsw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_Bx4ysGfUEeyImeFfzO2mjg">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_74gTEaBGEeyvAslvmZZvsw" key="originalName" value="encrypted configuration"/>
+          </eAnnotations>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_74gTE6BGEeyvAslvmZZvsw" name="encrypteddatastore" eSuperTypes="_74gTDKBGEeyvAslvmZZvsw">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_74gTFKBGEeyvAslvmZZvsw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_D3WDUGfUEeyImeFfzO2mjg">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_74gTFaBGEeyvAslvmZZvsw" key="originalName" value="encrypted datastore"/>
+          </eAnnotations>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_74gTF6BGEeyvAslvmZZvsw" name="signing" eSuperTypes="_74fr6aBGEeyvAslvmZZvsw">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_74gTGKBGEeyvAslvmZZvsw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_PIQW4GfUEeyImeFfzO2mjg"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_74gTGqBGEeyvAslvmZZvsw" name="redundantinfrastructure" eSuperTypes="_74gS9aBGEeyvAslvmZZvsw">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_74gTG6BGEeyvAslvmZZvsw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_ZSlc4GfUEeyImeFfzO2mjg">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_74gTHKBGEeyvAslvmZZvsw" key="originalName" value="redundant infrastructure "/>
+          </eAnnotations>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_74gTHqBGEeyvAslvmZZvsw" name="desasterrecovery" eSuperTypes="_74gS9aBGEeyvAslvmZZvsw">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_74gTH6BGEeyvAslvmZZvsw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_eVmq0GfUEeyImeFfzO2mjg">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_74gTIKBGEeyvAslvmZZvsw" key="originalName" value="desaster recovery"/>
+          </eAnnotations>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_74gTIqBGEeyvAslvmZZvsw" name="certificate" eSuperTypes="_74gTF6BGEeyvAslvmZZvsw _74gTJqBGEeyvAslvmZZvsw">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_74gTI6BGEeyvAslvmZZvsw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jhdEoGfUEeyImeFfzO2mjg"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_74gTJqBGEeyvAslvmZZvsw" name="authentication" eSuperTypes="_74fr6aBGEeyvAslvmZZvsw">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_74gTJ6BGEeyvAslvmZZvsw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_6eyjEGfUEeyImeFfzO2mjg"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_74gTKaBGEeyvAslvmZZvsw" name="accesscontrol" eSuperTypes="_74gS_aBGEeyvAslvmZZvsw _74fr4aBGEeyvAslvmZZvsw">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_74gTKqBGEeyvAslvmZZvsw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_pe-zAGfUEeyImeFfzO2mjg">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_74gTK6BGEeyvAslvmZZvsw" key="originalName" value="access control"/>
+          </eAnnotations>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_74gTLqBGEeyvAslvmZZvsw" name="dataclassification" eSuperTypes="_74gS-aBGEeyvAslvmZZvsw">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_74gTL6BGEeyvAslvmZZvsw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_yeLioGfUEeyImeFfzO2mjg">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_74gTMKBGEeyvAslvmZZvsw" key="originalName" value="data classification"/>
+          </eAnnotations>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_74gTMqBGEeyvAslvmZZvsw" name="token" eSuperTypes="_74gTJqBGEeyvAslvmZZvsw">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_74gTM6BGEeyvAslvmZZvsw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_CGtWsGfVEeyImeFfzO2mjg"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_74gTNaBGEeyvAslvmZZvsw" name="logging" eSuperTypes="_74gS-aBGEeyvAslvmZZvsw _74fr6aBGEeyvAslvmZZvsw">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_74gTNqBGEeyvAslvmZZvsw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_XZFvMGfVEeyImeFfzO2mjg"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_74gTOaBGEeyvAslvmZZvsw" name="checksums" eSuperTypes="_74fr6aBGEeyvAslvmZZvsw">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_74gTOqBGEeyvAslvmZZvsw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_g-82MGfVEeyImeFfzO2mjg"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_74gTPKBGEeyvAslvmZZvsw" name="loadbalancer" eSuperTypes="_74gTGqBGEeyvAslvmZZvsw">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_74gTPaBGEeyvAslvmZZvsw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_0hLfsGfVEeyImeFfzO2mjg">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_74gTPqBGEeyvAslvmZZvsw" key="originalName" value="load balancer "/>
+          </eAnnotations>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_74gTQKBGEeyvAslvmZZvsw" name="messagebuffer" eSuperTypes="_74gTGqBGEeyvAslvmZZvsw">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_74gTQaBGEeyvAslvmZZvsw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_CCP4AGfWEeyImeFfzO2mjg"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_74gTQ6BGEeyvAslvmZZvsw" name="backups" eSuperTypes="_74gTHqBGEeyvAslvmZZvsw">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_74gTRKBGEeyvAslvmZZvsw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_W75AYGfWEeywMo24Drbvsw"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_74gTRqBGEeyvAslvmZZvsw" name="X509" eSuperTypes="_74gTIqBGEeyvAslvmZZvsw">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_74gTR6BGEeyvAslvmZZvsw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_ah3okGfWEeywMo24Drbvsw">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_74gTSKBGEeyvAslvmZZvsw" key="originalName" value="X.509"/>
+          </eAnnotations>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_74gTSqBGEeyvAslvmZZvsw" name="RBAC" eSuperTypes="_74gTKaBGEeyvAslvmZZvsw">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_74gTS6BGEeyvAslvmZZvsw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_e4V5kGfWEeywMo24Drbvsw"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_74gTTaBGEeyvAslvmZZvsw" name="ABAC" eSuperTypes="_74gTKaBGEeyvAslvmZZvsw">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_74gTTqBGEeyvAslvmZZvsw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_fu9_kGfWEeywMo24Drbvsw"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_74gTUKBGEeyvAslvmZZvsw" name="Httpbasicauthentication" eSuperTypes="_74gTJqBGEeyvAslvmZZvsw">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_74gTUaBGEeyvAslvmZZvsw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_lqlpcGfWEeywMo24Drbvsw">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_74gTUqBGEeyvAslvmZZvsw" key="originalName" value="Http basic authentication"/>
+          </eAnnotations>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_74gTVKBGEeyvAslvmZZvsw" name="usernamepasswordauthentication" eSuperTypes="_74gTJqBGEeyvAslvmZZvsw">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_74gTVaBGEeyvAslvmZZvsw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_n8kTIGfWEeywMo24Drbvsw">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_74gTVqBGEeyvAslvmZZvsw" key="originalName" value="username password authentication"/>
+          </eAnnotations>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_74gTWKBGEeyvAslvmZZvsw" name="identityprovider" eSuperTypes="_74gTJqBGEeyvAslvmZZvsw">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_74gTWaBGEeyvAslvmZZvsw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_pyHfgGfWEeywMo24Drbvsw">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_74gTWqBGEeyvAslvmZZvsw" key="originalName" value="identity provider"/>
+          </eAnnotations>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_74gTXKBGEeyvAslvmZZvsw" name="OAuth" eSuperTypes="_74gTMqBGEeyvAslvmZZvsw">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_74gTXaBGEeyvAslvmZZvsw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_xisf4GfWEeywMo24Drbvsw"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_74gTX6BGEeyvAslvmZZvsw" name="OAuth2" eSuperTypes="_74gTMqBGEeyvAslvmZZvsw">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_74gTYKBGEeyvAslvmZZvsw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_yMhgAGfWEeywMo24Drbvsw"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_74gTYqBGEeyvAslvmZZvsw" name="JasonWebToken" eSuperTypes="_74gTMqBGEeyvAslvmZZvsw">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_74gTY6BGEeyvAslvmZZvsw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_zEr3EGfWEeywMo24Drbvsw">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_74gTZKBGEeyvAslvmZZvsw" key="originalName" value="Jason Web Token"/>
+          </eAnnotations>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_74gTZqBGEeyvAslvmZZvsw" name="MAC" eSuperTypes="_74gTOaBGEeyvAslvmZZvsw">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_74gTZ6BGEeyvAslvmZZvsw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_7tff8GfWEeywMo24Drbvsw"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_74gTaaBGEeyvAslvmZZvsw" name="HMAC" eSuperTypes="_74gTOaBGEeyvAslvmZZvsw">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_74gTaqBGEeyvAslvmZZvsw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_8QWVYGfWEeywMo24Drbvsw"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_74gTbKBGEeyvAslvmZZvsw" name="IPSec" eSuperTypes="_74gTDKBGEeyvAslvmZZvsw">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_74gTbaBGEeyvAslvmZZvsw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_BgZSsGfXEeywMo24Drbvsw"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_74gTb6BGEeyvAslvmZZvsw" name="VPN" eSuperTypes="_74gTbKBGEeyvAslvmZZvsw">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_74gTcKBGEeyvAslvmZZvsw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_CfAQAGfXEeywMo24Drbvsw"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_74gTcqBGEeyvAslvmZZvsw" name="TLS" eSuperTypes="_74gTDKBGEeyvAslvmZZvsw _74gTOaBGEeyvAslvmZZvsw _74gTIqBGEeyvAslvmZZvsw">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_74gTc6BGEeyvAslvmZZvsw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_F-eAgGfXEeywMo24Drbvsw"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_74gTd6BGEeyvAslvmZZvsw" name="MQTT" eSuperTypes="_74gTcqBGEeyvAslvmZZvsw">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_74gTeKBGEeyvAslvmZZvsw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_PLBPoGfXEeywMo24Drbvsw"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_74gTeqBGEeyvAslvmZZvsw" name="Modbus" eSuperTypes="_74gTcqBGEeyvAslvmZZvsw">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_74gTe6BGEeyvAslvmZZvsw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_P21z0GfXEeywMo24Drbvsw"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_74gTfaBGEeyvAslvmZZvsw" name="AMPQ" eSuperTypes="_74gTcqBGEeyvAslvmZZvsw">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_74gTfqBGEeyvAslvmZZvsw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_Q1i3wGfXEeywMo24Drbvsw"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_74gTgKBGEeyvAslvmZZvsw" name="HTTPS" eSuperTypes="_74gTcqBGEeyvAslvmZZvsw">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_74gTgaBGEeyvAslvmZZvsw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_Rvsy4GfXEeywMo24Drbvsw"/>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_dnKGQKBEEey9m8JdPDpr8A" name="model" nsURI="http:///schemas/model/_dnHC8KBEEey9m8JdPDpr8A/1" nsPrefix="model">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dnNwoKBEEey9m8JdPDpr8A" source="PapyrusVersion">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dnNwoaBEEey9m8JdPDpr8A" key="Version" value="0.0.2"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dnNwoqBEEey9m8JdPDpr8A" key="Comment" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dnNwo6BEEey9m8JdPDpr8A" key="Copyright" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dnNwpKBEEey9m8JdPDpr8A" key="Date" value="2022-03-10"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dnNwpaBEEey9m8JdPDpr8A" key="Author" value=""/>
+        </eAnnotations>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_dnKGQaBEEey9m8JdPDpr8A" name="Confidentiality">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dnKGQqBEEey9m8JdPDpr8A" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_oHYY0GfSEeyImeFfzO2mjg"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_dnKGQ6BEEey9m8JdPDpr8A" name="base_Confidentiality_Class" ordered="false">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dnKGRKBEEey9m8JdPDpr8A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dnKGRaBEEey9m8JdPDpr8A" key="originalName" value="base_Class"/>
+            </eAnnotations>
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_dnKGR6BEEey9m8JdPDpr8A" name="base_Association" ordered="false">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Association"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_dnKGSaBEEey9m8JdPDpr8A" name="Integrity">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dnKGSqBEEey9m8JdPDpr8A" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_r9yCoGfSEeyImeFfzO2mjg"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_dnKGS6BEEey9m8JdPDpr8A" name="base_Integrity_Class" ordered="false">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dnKGTKBEEey9m8JdPDpr8A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dnKGTaBEEey9m8JdPDpr8A" key="originalName" value="base_Class"/>
+            </eAnnotations>
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_dnKGT6BEEey9m8JdPDpr8A" name="base_Integrity_Association" ordered="false">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dnKGUKBEEey9m8JdPDpr8A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dnKGUaBEEey9m8JdPDpr8A" key="originalName" value="base_Association"/>
+            </eAnnotations>
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Association"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_dnKGU6BEEey9m8JdPDpr8A" name="Availability">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dnKGVKBEEey9m8JdPDpr8A" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_yxEUUGfSEeyImeFfzO2mjg"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_dnKGVaBEEey9m8JdPDpr8A" name="base_Class" ordered="false">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_dnKGV6BEEey9m8JdPDpr8A" name="Transparency">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dnKGWKBEEey9m8JdPDpr8A" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_0poYcGfSEeyImeFfzO2mjg"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_dnKGWaBEEey9m8JdPDpr8A" name="base_Class" ordered="false">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_dnKGW6BEEey9m8JdPDpr8A" name="Unlinkability">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dnKGXKBEEey9m8JdPDpr8A" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_1ULKQGfSEeyImeFfzO2mjg"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_dnKGXaBEEey9m8JdPDpr8A" name="base_Class" ordered="false">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_dnKGX6BEEey9m8JdPDpr8A" name="Intervenability">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dnKGYKBEEey9m8JdPDpr8A" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_2EiQMGfSEeyImeFfzO2mjg"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_dnKGYaBEEey9m8JdPDpr8A" name="base_Class" ordered="false">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_dnKGY6BEEey9m8JdPDpr8A" name="Securitypatches" eSuperTypes="_dnKGSaBEEey9m8JdPDpr8A">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dnKGZKBEEey9m8JdPDpr8A" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_4l2g8GfTEeyImeFfzO2mjg"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_dnKGZqBEEey9m8JdPDpr8A" name="AutomatischesPatchmanagement" eSuperTypes="_dnKGY6BEEey9m8JdPDpr8A">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dnKGZ6BEEey9m8JdPDpr8A" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_9lviYGfTEeyImeFfzO2mjg">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dnKGaKBEEey9m8JdPDpr8A" key="originalName" value="Automatisches Patchmanagement"/>
+          </eAnnotations>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_dnKGaqBEEey9m8JdPDpr8A" name="Encryption" eSuperTypes="_dnKGQaBEEey9m8JdPDpr8A">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dnKGa6BEEey9m8JdPDpr8A" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_AqPOIGfUEeyImeFfzO2mjg"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_dnKGbaBEEey9m8JdPDpr8A" name="VerschlüsselteKonfiguration" eSuperTypes="_dnKGaqBEEey9m8JdPDpr8A">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dnKGbqBEEey9m8JdPDpr8A" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_Bx4ysGfUEeyImeFfzO2mjg">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dnKGb6BEEey9m8JdPDpr8A" key="originalName" value="Verschlüsselte Konfiguration"/>
+          </eAnnotations>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_dnKGcaBEEey9m8JdPDpr8A" name="VerschlüsselteDatenspeicher" eSuperTypes="_dnKGaqBEEey9m8JdPDpr8A">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dnKGcqBEEey9m8JdPDpr8A" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_D3WDUGfUEeyImeFfzO2mjg">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dnKGc6BEEey9m8JdPDpr8A" key="originalName" value="Verschlüsselte Datenspeicher"/>
+          </eAnnotations>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_dnKGdaBEEey9m8JdPDpr8A" name="Signing" eSuperTypes="_dnKGSaBEEey9m8JdPDpr8A">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dnKGdqBEEey9m8JdPDpr8A" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_PIQW4GfUEeyImeFfzO2mjg"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_dnKGeKBEEey9m8JdPDpr8A" name="RedundantInfrastructure" eSuperTypes="_dnKGU6BEEey9m8JdPDpr8A">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dnKGeaBEEey9m8JdPDpr8A" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_ZSlc4GfUEeyImeFfzO2mjg">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dnKGeqBEEey9m8JdPDpr8A" key="originalName" value="Redundant Infrastructure "/>
+          </eAnnotations>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_dnKGfKBEEey9m8JdPDpr8A" name="DesasterRecovery" eSuperTypes="_dnKGU6BEEey9m8JdPDpr8A">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dnKGfaBEEey9m8JdPDpr8A" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_eVmq0GfUEeyImeFfzO2mjg">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dnKGfqBEEey9m8JdPDpr8A" key="originalName" value="Desaster Recovery"/>
+          </eAnnotations>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_dnKGgKBEEey9m8JdPDpr8A" name="Zertifikate" eSuperTypes="_dnKGdaBEEey9m8JdPDpr8A _dnKGhKBEEey9m8JdPDpr8A">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dnKGgaBEEey9m8JdPDpr8A" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jhdEoGfUEeyImeFfzO2mjg"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_dnKGhKBEEey9m8JdPDpr8A" name="Authentication" eSuperTypes="_dnKGSaBEEey9m8JdPDpr8A">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dnKGhaBEEey9m8JdPDpr8A" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_6eyjEGfUEeyImeFfzO2mjg"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_dnKGh6BEEey9m8JdPDpr8A" name="AccessControl" eSuperTypes="_dnKGW6BEEey9m8JdPDpr8A _dnKGQaBEEey9m8JdPDpr8A">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dnKGiKBEEey9m8JdPDpr8A" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_pe-zAGfUEeyImeFfzO2mjg">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dnKGiaBEEey9m8JdPDpr8A" key="originalName" value="Access Control"/>
+          </eAnnotations>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_dnKGjKBEEey9m8JdPDpr8A" name="Dataclassification" eSuperTypes="_dnKGV6BEEey9m8JdPDpr8A">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dnKGjaBEEey9m8JdPDpr8A" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_yeLioGfUEeyImeFfzO2mjg">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dnKGjqBEEey9m8JdPDpr8A" key="originalName" value="Data classification"/>
+          </eAnnotations>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_dnKGkKBEEey9m8JdPDpr8A" name="Tokens" eSuperTypes="_dnKGhKBEEey9m8JdPDpr8A">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dnKGkaBEEey9m8JdPDpr8A" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_CGtWsGfVEeyImeFfzO2mjg"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_dnKGk6BEEey9m8JdPDpr8A" name="Logging" eSuperTypes="_dnKGV6BEEey9m8JdPDpr8A _dnKGSaBEEey9m8JdPDpr8A">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dnKGlKBEEey9m8JdPDpr8A" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_XZFvMGfVEeyImeFfzO2mjg"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_dnKGl6BEEey9m8JdPDpr8A" name="Checksums" eSuperTypes="_dnKGSaBEEey9m8JdPDpr8A">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dnKGmKBEEey9m8JdPDpr8A" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_g-82MGfVEeyImeFfzO2mjg"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_dnKGmqBEEey9m8JdPDpr8A" name="LoadBalancer" eSuperTypes="_dnKGeKBEEey9m8JdPDpr8A">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dnKGm6BEEey9m8JdPDpr8A" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_0hLfsGfVEeyImeFfzO2mjg">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dnKGnKBEEey9m8JdPDpr8A" key="originalName" value="Load Balancer "/>
+          </eAnnotations>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_dnKGnqBEEey9m8JdPDpr8A" name="Nachrichtenbuffer" eSuperTypes="_dnKGeKBEEey9m8JdPDpr8A">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dnKGn6BEEey9m8JdPDpr8A" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_CCP4AGfWEeyImeFfzO2mjg"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_dnKGoaBEEey9m8JdPDpr8A" name="Backups" eSuperTypes="_dnKGfKBEEey9m8JdPDpr8A">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dnKGoqBEEey9m8JdPDpr8A" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_W75AYGfWEeywMo24Drbvsw"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_dnKGpKBEEey9m8JdPDpr8A" name="X509" eSuperTypes="_dnKGgKBEEey9m8JdPDpr8A">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dnKGpaBEEey9m8JdPDpr8A" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_ah3okGfWEeywMo24Drbvsw">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dnKGpqBEEey9m8JdPDpr8A" key="originalName" value="X.509"/>
+          </eAnnotations>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_dnKGqKBEEey9m8JdPDpr8A" name="RBAC" eSuperTypes="_dnKGh6BEEey9m8JdPDpr8A">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dnKGqaBEEey9m8JdPDpr8A" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_e4V5kGfWEeywMo24Drbvsw"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_dnKGq6BEEey9m8JdPDpr8A" name="ABAC" eSuperTypes="_dnKGh6BEEey9m8JdPDpr8A">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dnKGrKBEEey9m8JdPDpr8A" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_fu9_kGfWEeywMo24Drbvsw"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_dnKGrqBEEey9m8JdPDpr8A" name="HttpBasicAuthentication" eSuperTypes="_dnKGhKBEEey9m8JdPDpr8A">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dnKGr6BEEey9m8JdPDpr8A" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_lqlpcGfWEeywMo24Drbvsw">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dnKGsKBEEey9m8JdPDpr8A" key="originalName" value="Http Basic Authentication"/>
+          </eAnnotations>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_dnKGsqBEEey9m8JdPDpr8A" name="UsernamePassword" eSuperTypes="_dnKGhKBEEey9m8JdPDpr8A">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dnKGs6BEEey9m8JdPDpr8A" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_n8kTIGfWEeywMo24Drbvsw">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dnKGtKBEEey9m8JdPDpr8A" key="originalName" value="Username / Password"/>
+          </eAnnotations>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_dnKGtqBEEey9m8JdPDpr8A" name="IdentityProvider" eSuperTypes="_dnKGhKBEEey9m8JdPDpr8A">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dnKGt6BEEey9m8JdPDpr8A" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_pyHfgGfWEeywMo24Drbvsw">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dnKGuKBEEey9m8JdPDpr8A" key="originalName" value="Identity Provider"/>
+          </eAnnotations>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_dnKGuqBEEey9m8JdPDpr8A" name="OAuth" eSuperTypes="_dnKGkKBEEey9m8JdPDpr8A">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dnKGu6BEEey9m8JdPDpr8A" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_xisf4GfWEeywMo24Drbvsw"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_dnKGvaBEEey9m8JdPDpr8A" name="OAuth2" eSuperTypes="_dnKGkKBEEey9m8JdPDpr8A">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dnKGvqBEEey9m8JdPDpr8A" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_yMhgAGfWEeywMo24Drbvsw"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_dnKGwKBEEey9m8JdPDpr8A" name="JasonWebToken" eSuperTypes="_dnKGkKBEEey9m8JdPDpr8A">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dnKGwaBEEey9m8JdPDpr8A" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_zEr3EGfWEeywMo24Drbvsw">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dnKGwqBEEey9m8JdPDpr8A" key="originalName" value="Jason Web Token"/>
+          </eAnnotations>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_dnKGxKBEEey9m8JdPDpr8A" name="MAC" eSuperTypes="_dnKGl6BEEey9m8JdPDpr8A">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dnKGxaBEEey9m8JdPDpr8A" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_7tff8GfWEeywMo24Drbvsw"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_dnKGx6BEEey9m8JdPDpr8A" name="HMAC" eSuperTypes="_dnKGl6BEEey9m8JdPDpr8A">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dnKGyKBEEey9m8JdPDpr8A" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_8QWVYGfWEeywMo24Drbvsw"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_dnKGyqBEEey9m8JdPDpr8A" name="IPSec" eSuperTypes="_dnKGaqBEEey9m8JdPDpr8A">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dnKGy6BEEey9m8JdPDpr8A" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_BgZSsGfXEeywMo24Drbvsw"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_dnKGzaBEEey9m8JdPDpr8A" name="VPN" eSuperTypes="_dnKGyqBEEey9m8JdPDpr8A">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dnKGzqBEEey9m8JdPDpr8A" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_CfAQAGfXEeywMo24Drbvsw"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_dnKG0KBEEey9m8JdPDpr8A" name="TLS" eSuperTypes="_dnKGaqBEEey9m8JdPDpr8A _dnKGl6BEEey9m8JdPDpr8A _dnKGgKBEEey9m8JdPDpr8A">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dnKG0aBEEey9m8JdPDpr8A" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_F-eAgGfXEeywMo24Drbvsw"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_dnKG1aBEEey9m8JdPDpr8A" name="MQTT" eSuperTypes="_dnKG0KBEEey9m8JdPDpr8A">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dnKG1qBEEey9m8JdPDpr8A" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_PLBPoGfXEeywMo24Drbvsw"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_dnKG2KBEEey9m8JdPDpr8A" name="Modbus" eSuperTypes="_dnKG0KBEEey9m8JdPDpr8A">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dnKG2aBEEey9m8JdPDpr8A" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_P21z0GfXEeywMo24Drbvsw"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_dnKG26BEEey9m8JdPDpr8A" name="AMPQ" eSuperTypes="_dnKG0KBEEey9m8JdPDpr8A">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dnKG3KBEEey9m8JdPDpr8A" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_Q1i3wGfXEeywMo24Drbvsw"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_dnKG3qBEEey9m8JdPDpr8A" name="HTTPS" eSuperTypes="_dnKG0KBEEey9m8JdPDpr8A">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dnKG36BEEey9m8JdPDpr8A" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_Rvsy4GfXEeywMo24Drbvsw"/>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_ThHnoGyBEeywnKZqGitfGg" name="model" nsURI="http:///schemas/model/_ThFLYGyBEeywnKZqGitfGg/0" nsPrefix="model">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ThI1w2yBEeywnKZqGitfGg" source="PapyrusVersion">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ThI1xGyBEeywnKZqGitfGg" key="Version" value="0.0.1"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ThI1xWyBEeywnKZqGitfGg" key="Comment" value="First Test"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ThI1xmyBEeywnKZqGitfGg" key="Copyright" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ThI1x2yBEeywnKZqGitfGg" key="Date" value="2022-01-03"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ThI1yGyBEeywnKZqGitfGg" key="Author" value="Maximilian Käsgen"/>
+        </eAnnotations>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_ThHnoWyBEeywnKZqGitfGg" name="Confidentiality">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ThHnomyBEeywnKZqGitfGg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_oHYY0GfSEeyImeFfzO2mjg"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_ThHno2yBEeywnKZqGitfGg" name="base_Confidentiality_Class" ordered="false">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ThHnpGyBEeywnKZqGitfGg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ThHnpWyBEeywnKZqGitfGg" key="originalName" value="base_Class"/>
+            </eAnnotations>
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_ThHnp2yBEeywnKZqGitfGg" name="base_Association" ordered="false">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Association"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_ThHnqWyBEeywnKZqGitfGg" name="Integrity">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ThHnqmyBEeywnKZqGitfGg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_r9yCoGfSEeyImeFfzO2mjg"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_ThHnq2yBEeywnKZqGitfGg" name="base_Integrity_Class" ordered="false">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ThHnrGyBEeywnKZqGitfGg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ThHnrWyBEeywnKZqGitfGg" key="originalName" value="base_Class"/>
+            </eAnnotations>
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_ThHnr2yBEeywnKZqGitfGg" name="base_Integrity_Association" ordered="false">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ThHnsGyBEeywnKZqGitfGg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ThHnsWyBEeywnKZqGitfGg" key="originalName" value="base_Association"/>
+            </eAnnotations>
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Association"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_ThHns2yBEeywnKZqGitfGg" name="Availability">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ThHntGyBEeywnKZqGitfGg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_yxEUUGfSEeyImeFfzO2mjg"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_ThHntWyBEeywnKZqGitfGg" name="base_Class" ordered="false">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_ThHnt2yBEeywnKZqGitfGg" name="Transparency">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ThHnuGyBEeywnKZqGitfGg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_0poYcGfSEeyImeFfzO2mjg"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_ThHnuWyBEeywnKZqGitfGg" name="base_Class" ordered="false">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_ThHnu2yBEeywnKZqGitfGg" name="Unlinkability">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ThHnvGyBEeywnKZqGitfGg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_1ULKQGfSEeyImeFfzO2mjg"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_ThHnvWyBEeywnKZqGitfGg" name="base_Class" ordered="false">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_ThHnv2yBEeywnKZqGitfGg" name="Intervenability">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ThHnwGyBEeywnKZqGitfGg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_2EiQMGfSEeyImeFfzO2mjg"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_ThHnwWyBEeywnKZqGitfGg" name="base_Class" ordered="false">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_ThHnw2yBEeywnKZqGitfGg" name="Securitypatches" eSuperTypes="_ThHnqWyBEeywnKZqGitfGg">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ThHnxGyBEeywnKZqGitfGg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_4l2g8GfTEeyImeFfzO2mjg"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_ThHnxmyBEeywnKZqGitfGg" name="AutomatischesPatchmanagement" eSuperTypes="_ThHnw2yBEeywnKZqGitfGg">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ThHnx2yBEeywnKZqGitfGg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_9lviYGfTEeyImeFfzO2mjg">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ThHnyGyBEeywnKZqGitfGg" key="originalName" value="Automatisches Patchmanagement"/>
+          </eAnnotations>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_ThHnymyBEeywnKZqGitfGg" name="Encryption" eSuperTypes="_ThHnoWyBEeywnKZqGitfGg">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ThHny2yBEeywnKZqGitfGg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_AqPOIGfUEeyImeFfzO2mjg"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_ThHnzWyBEeywnKZqGitfGg" name="VerschlüsselteKonfiguration" eSuperTypes="_ThHnymyBEeywnKZqGitfGg">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ThHnzmyBEeywnKZqGitfGg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_Bx4ysGfUEeyImeFfzO2mjg">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ThHnz2yBEeywnKZqGitfGg" key="originalName" value="Verschlüsselte Konfiguration"/>
+          </eAnnotations>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_ThHn0WyBEeywnKZqGitfGg" name="VerschlüsselteDatenspeicher" eSuperTypes="_ThHnymyBEeywnKZqGitfGg">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ThHn0myBEeywnKZqGitfGg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_D3WDUGfUEeyImeFfzO2mjg">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ThHn02yBEeywnKZqGitfGg" key="originalName" value="Verschlüsselte Datenspeicher"/>
+          </eAnnotations>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_ThHn1WyBEeywnKZqGitfGg" name="Signing" eSuperTypes="_ThHnqWyBEeywnKZqGitfGg">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ThHn1myBEeywnKZqGitfGg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_PIQW4GfUEeyImeFfzO2mjg"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_ThHn2GyBEeywnKZqGitfGg" name="RedundantInfrastructure" eSuperTypes="_ThHns2yBEeywnKZqGitfGg">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ThHn2WyBEeywnKZqGitfGg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_ZSlc4GfUEeyImeFfzO2mjg">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ThHn2myBEeywnKZqGitfGg" key="originalName" value="Redundant Infrastructure "/>
+          </eAnnotations>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_ThHn3GyBEeywnKZqGitfGg" name="DesasterRecovery" eSuperTypes="_ThHns2yBEeywnKZqGitfGg">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ThHn3WyBEeywnKZqGitfGg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_eVmq0GfUEeyImeFfzO2mjg">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ThHn3myBEeywnKZqGitfGg" key="originalName" value="Desaster Recovery"/>
+          </eAnnotations>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_ThHn4GyBEeywnKZqGitfGg" name="Zertifikate" eSuperTypes="_ThHn1WyBEeywnKZqGitfGg _ThHn5GyBEeywnKZqGitfGg">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ThHn4WyBEeywnKZqGitfGg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jhdEoGfUEeyImeFfzO2mjg"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_ThHn5GyBEeywnKZqGitfGg" name="Authentication" eSuperTypes="_ThHnqWyBEeywnKZqGitfGg">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ThHn5WyBEeywnKZqGitfGg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_6eyjEGfUEeyImeFfzO2mjg"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_ThHn52yBEeywnKZqGitfGg" name="AccessControl" eSuperTypes="_ThHnu2yBEeywnKZqGitfGg _ThHnoWyBEeywnKZqGitfGg">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ThHn6GyBEeywnKZqGitfGg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_pe-zAGfUEeyImeFfzO2mjg">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ThHn6WyBEeywnKZqGitfGg" key="originalName" value="Access Control"/>
+          </eAnnotations>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_ThHn7GyBEeywnKZqGitfGg" name="Dataclassification" eSuperTypes="_ThHnt2yBEeywnKZqGitfGg">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ThHn7WyBEeywnKZqGitfGg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_yeLioGfUEeyImeFfzO2mjg">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ThHn7myBEeywnKZqGitfGg" key="originalName" value="Data classification"/>
+          </eAnnotations>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_ThHn8GyBEeywnKZqGitfGg" name="Tokens" eSuperTypes="_ThHn5GyBEeywnKZqGitfGg">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ThHn8WyBEeywnKZqGitfGg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_CGtWsGfVEeyImeFfzO2mjg"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_ThHn82yBEeywnKZqGitfGg" name="Logging" eSuperTypes="_ThHnt2yBEeywnKZqGitfGg _ThHnqWyBEeywnKZqGitfGg">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ThHn9GyBEeywnKZqGitfGg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_XZFvMGfVEeyImeFfzO2mjg"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_ThHn92yBEeywnKZqGitfGg" name="Checksums" eSuperTypes="_ThHnqWyBEeywnKZqGitfGg">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ThHn-GyBEeywnKZqGitfGg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_g-82MGfVEeyImeFfzO2mjg"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_ThHn-myBEeywnKZqGitfGg" name="LoadBalancer" eSuperTypes="_ThHn2GyBEeywnKZqGitfGg">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ThHn-2yBEeywnKZqGitfGg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_0hLfsGfVEeyImeFfzO2mjg">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ThHn_GyBEeywnKZqGitfGg" key="originalName" value="Load Balancer "/>
+          </eAnnotations>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_ThHn_myBEeywnKZqGitfGg" name="Nachrichtenbuffer" eSuperTypes="_ThHn2GyBEeywnKZqGitfGg">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ThHn_2yBEeywnKZqGitfGg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_CCP4AGfWEeyImeFfzO2mjg"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_ThHoAWyBEeywnKZqGitfGg" name="Backups" eSuperTypes="_ThHn3GyBEeywnKZqGitfGg">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ThHoAmyBEeywnKZqGitfGg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_W75AYGfWEeywMo24Drbvsw"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_ThHoBGyBEeywnKZqGitfGg" name="X509" eSuperTypes="_ThHn4GyBEeywnKZqGitfGg">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ThHoBWyBEeywnKZqGitfGg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_ah3okGfWEeywMo24Drbvsw">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ThHoBmyBEeywnKZqGitfGg" key="originalName" value="X.509"/>
+          </eAnnotations>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_ThHoCGyBEeywnKZqGitfGg" name="RBAC" eSuperTypes="_ThHn52yBEeywnKZqGitfGg">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ThHoCWyBEeywnKZqGitfGg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_e4V5kGfWEeywMo24Drbvsw"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_ThHoC2yBEeywnKZqGitfGg" name="ABAC" eSuperTypes="_ThHn52yBEeywnKZqGitfGg">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ThHoDGyBEeywnKZqGitfGg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_fu9_kGfWEeywMo24Drbvsw"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_ThHoDmyBEeywnKZqGitfGg" name="HttpBasicAuthentication" eSuperTypes="_ThHn5GyBEeywnKZqGitfGg">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ThHoD2yBEeywnKZqGitfGg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_lqlpcGfWEeywMo24Drbvsw">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ThHoEGyBEeywnKZqGitfGg" key="originalName" value="Http Basic Authentication"/>
+          </eAnnotations>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_ThHoEmyBEeywnKZqGitfGg" name="UsernamePassword" eSuperTypes="_ThHn5GyBEeywnKZqGitfGg">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ThHoE2yBEeywnKZqGitfGg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_n8kTIGfWEeywMo24Drbvsw">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ThHoFGyBEeywnKZqGitfGg" key="originalName" value="Username / Password"/>
+          </eAnnotations>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_ThHoFmyBEeywnKZqGitfGg" name="IdentityProvider" eSuperTypes="_ThHn5GyBEeywnKZqGitfGg">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ThHoF2yBEeywnKZqGitfGg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_pyHfgGfWEeywMo24Drbvsw">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ThHoGGyBEeywnKZqGitfGg" key="originalName" value="Identity Provider"/>
+          </eAnnotations>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_ThHoGmyBEeywnKZqGitfGg" name="OAuth" eSuperTypes="_ThHn8GyBEeywnKZqGitfGg">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ThHoG2yBEeywnKZqGitfGg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_xisf4GfWEeywMo24Drbvsw"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_ThHoHWyBEeywnKZqGitfGg" name="OAuth2" eSuperTypes="_ThHn8GyBEeywnKZqGitfGg">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ThHoHmyBEeywnKZqGitfGg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_yMhgAGfWEeywMo24Drbvsw"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_ThHoIGyBEeywnKZqGitfGg" name="JasonWebToken" eSuperTypes="_ThHn8GyBEeywnKZqGitfGg">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ThHoIWyBEeywnKZqGitfGg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_zEr3EGfWEeywMo24Drbvsw">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ThHoImyBEeywnKZqGitfGg" key="originalName" value="Jason Web Token"/>
+          </eAnnotations>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_ThHoJGyBEeywnKZqGitfGg" name="MAC" eSuperTypes="_ThHn92yBEeywnKZqGitfGg">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ThHoJWyBEeywnKZqGitfGg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_7tff8GfWEeywMo24Drbvsw"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_ThHoJ2yBEeywnKZqGitfGg" name="HMAC" eSuperTypes="_ThHn92yBEeywnKZqGitfGg">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ThHoKGyBEeywnKZqGitfGg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_8QWVYGfWEeywMo24Drbvsw"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_ThHoKmyBEeywnKZqGitfGg" name="IPSec" eSuperTypes="_ThHnymyBEeywnKZqGitfGg">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ThHoK2yBEeywnKZqGitfGg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_BgZSsGfXEeywMo24Drbvsw"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_ThHoLWyBEeywnKZqGitfGg" name="VPN" eSuperTypes="_ThHoKmyBEeywnKZqGitfGg">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ThHoLmyBEeywnKZqGitfGg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_CfAQAGfXEeywMo24Drbvsw"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_ThHoMGyBEeywnKZqGitfGg" name="TLS" eSuperTypes="_ThHnymyBEeywnKZqGitfGg _ThHn92yBEeywnKZqGitfGg _ThHn4GyBEeywnKZqGitfGg">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ThHoMWyBEeywnKZqGitfGg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_F-eAgGfXEeywMo24Drbvsw"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_ThHoNWyBEeywnKZqGitfGg" name="MQTT" eSuperTypes="_ThHoMGyBEeywnKZqGitfGg">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ThHoNmyBEeywnKZqGitfGg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_PLBPoGfXEeywMo24Drbvsw"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_ThHoOGyBEeywnKZqGitfGg" name="Modbus" eSuperTypes="_ThHoMGyBEeywnKZqGitfGg">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ThHoOWyBEeywnKZqGitfGg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_P21z0GfXEeywMo24Drbvsw"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_ThHoO2yBEeywnKZqGitfGg" name="AMPQ" eSuperTypes="_ThHoMGyBEeywnKZqGitfGg">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ThHoPGyBEeywnKZqGitfGg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_Q1i3wGfXEeywMo24Drbvsw"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_ThHoPmyBEeywnKZqGitfGg" name="HTTPS" eSuperTypes="_ThHoMGyBEeywnKZqGitfGg">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ThHoP2yBEeywnKZqGitfGg" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_Rvsy4GfXEeywMo24Drbvsw"/>
+        </eClassifiers>
+      </contents>
+    </eAnnotations>
+    <ownedComment xmi:type="uml:Comment" xmi:id="_AkoK0GfTEeyImeFfzO2mjg">
+      <body>Hierarchie basiert auf Featuremodell V2&#xD;
+</body>
+    </ownedComment>
+    <ownedComment xmi:type="uml:Comment" xmi:id="_Flv7UGfTEeyImeFfzO2mjg">
+      <body>Ebene Ziele;&#xD;
+Anforderungen an die jeweilige Komponete oder Verbindung</body>
+    </ownedComment>
+    <ownedComment xmi:type="uml:Comment" xmi:id="_SeeeQGf0EeydhfWpBowbSA">
+      <body>Ebene Technologien</body>
+    </ownedComment>
+    <ownedComment xmi:type="uml:Comment" xmi:id="_TxdJEGf0EeydhfWpBowbSA">
+      <body>Ebene Umsetzungen</body>
+    </ownedComment>
+    <ownedComment xmi:type="uml:Comment" xmi:id="_ynTb4Gf0EeydhfWpBowbSA" annotatedElement="_2EiQMGfSEeyImeFfzO2mjg">
+      <body>Keine Edges da im Featuremodell keine Technologien identifiziert wurden</body>
+    </ownedComment>
+    <ownedComment xmi:type="uml:Comment" xmi:id="_ERdUAGf2EeydhfWpBowbSA" annotatedElement="_DxW3oGf2EeydhfWpBowbSA _A5w_cGf2EeydhfWpBowbSA">
+      <body>Composizion aus Featuremodel als Generalization umgesetzt</body>
+    </ownedComment>
+    <elementImport xmi:type="uml:ElementImport" xmi:id="_96Gl0Gf0EeydhfWpBowbSA" alias="Class">
+      <importedElement xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+    </elementImport>
+    <elementImport xmi:type="uml:ElementImport" xmi:id="_aOF_4Gf1EeydhfWpBowbSA" alias="Association">
+      <importedElement xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Association"/>
+    </elementImport>
+    <elementImport xmi:type="uml:ElementImport" xmi:id="_GgfVkMxKEeyKa7qv6r8wbw" alias="Interface">
+      <importedElement xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Interface"/>
+    </elementImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_L86uMGfSEeyImeFfzO2mjg">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_L87VQGfSEeyImeFfzO2mjg">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_METAMODELS/UML.metamodel.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_oHYY0GfSEeyImeFfzO2mjg" name="confidentiality">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_cXi_sGf1EeydhfWpBowbSA" name="base_Class" association="_cXf8YGf1EeydhfWpBowbSA">
+        <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_cXi_sWf1EeydhfWpBowbSA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_g7QbcWf1EeydhfWpBowbSA" name="base_Association" association="_g7PNUGf1EeydhfWpBowbSA">
+        <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Association"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_g7Qbcmf1EeydhfWpBowbSA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_H-gLsMxKEeyKa7qv6r8wbw" name="base_Interface" association="_H-XBwMxKEeyKa7qv6r8wbw">
+        <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Interface"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_H-gLscxKEeyKa7qv6r8wbw"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_r9yCoGfSEeyImeFfzO2mjg" name="integrity">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_dHnKsWf1EeydhfWpBowbSA" name="base_Class" association="_dHl8kGf1EeydhfWpBowbSA">
+        <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dHnKsmf1EeydhfWpBowbSA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_iLNAYWf1EeydhfWpBowbSA" name="base_Association" association="_iLMZUGf1EeydhfWpBowbSA">
+        <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Association"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_iLNAYmf1EeydhfWpBowbSA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_JVJOgMxKEeyKa7qv6r8wbw" name="base_Interface" association="_JVHZUMxKEeyKa7qv6r8wbw">
+        <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Interface"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_JVJOgcxKEeyKa7qv6r8wbw"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_yxEUUGfSEeyImeFfzO2mjg" name="availability">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_d-xcMWf1EeydhfWpBowbSA" name="base_Class" association="_d-w1IGf1EeydhfWpBowbSA">
+        <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_d-xcMmf1EeydhfWpBowbSA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_KZ-IkMxKEeyKa7qv6r8wbw" name="base_Interface" association="_KZ86cMxKEeyKa7qv6r8wbw">
+        <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Interface"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_KZ-IkcxKEeyKa7qv6r8wbw"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_0poYcGfSEeyImeFfzO2mjg" name="transparency">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_eiRK0Wf1EeydhfWpBowbSA" name="base_Class" association="_eiQjwGf1EeydhfWpBowbSA">
+        <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_eiRK0mf1EeydhfWpBowbSA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_L4sJUcxKEeyKa7qv6r8wbw" name="base_Interface" association="_L4q7MMxKEeyKa7qv6r8wbw">
+        <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Interface"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_L4sJUsxKEeyKa7qv6r8wbw"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_1ULKQGfSEeyImeFfzO2mjg" name="unlinkability">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_fRzKUGf1EeydhfWpBowbSA" name="base_Class" association="_fRx8MGf1EeydhfWpBowbSA">
+        <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fRzKUWf1EeydhfWpBowbSA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_M4R-EMxKEeyKa7qv6r8wbw" name="base_Interface" association="_M4Qv8MxKEeyKa7qv6r8wbw">
+        <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Interface"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_M4R-EcxKEeyKa7qv6r8wbw"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_2EiQMGfSEeyImeFfzO2mjg" name="intervenability">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_gGWMsWf1EeydhfWpBowbSA" name="base_Class" association="_gGVloGf1EeydhfWpBowbSA">
+        <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_gGWMsmf1EeydhfWpBowbSA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_N8jegMxKEeyKa7qv6r8wbw" name="base_Interface" association="_N8iQYMxKEeyKa7qv6r8wbw">
+        <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Interface"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_N8jegcxKEeyKa7qv6r8wbw"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_4l2g8GfTEeyImeFfzO2mjg" name="securitypatches">
+      <generalization xmi:type="uml:Generalization" xmi:id="_Kg_Q0GfUEeyImeFfzO2mjg" general="_r9yCoGfSEeyImeFfzO2mjg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_9lviYGfTEeyImeFfzO2mjg" name="automatic patchmanagement">
+      <generalization xmi:type="uml:Generalization" xmi:id="_Ieo-kGfUEeyImeFfzO2mjg" general="_4l2g8GfTEeyImeFfzO2mjg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_AqPOIGfUEeyImeFfzO2mjg" name="encryption">
+      <generalization xmi:type="uml:Generalization" xmi:id="_JHnqIGfUEeyImeFfzO2mjg" general="_oHYY0GfSEeyImeFfzO2mjg"/>
+      <generalization xmi:type="uml:Generalization" xmi:id="__yGyAMxJEeyKa7qv6r8wbw" general="_1ULKQGfSEeyImeFfzO2mjg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_Bx4ysGfUEeyImeFfzO2mjg" name="encrypted configuration">
+      <generalization xmi:type="uml:Generalization" xmi:id="_HOu14GfUEeyImeFfzO2mjg" general="_AqPOIGfUEeyImeFfzO2mjg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_D3WDUGfUEeyImeFfzO2mjg" name="encrypted datastore">
+      <generalization xmi:type="uml:Generalization" xmi:id="_H2xGQGfUEeyImeFfzO2mjg" general="_AqPOIGfUEeyImeFfzO2mjg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_PIQW4GfUEeyImeFfzO2mjg" name="signing">
+      <generalization xmi:type="uml:Generalization" xmi:id="_QWBxkGfUEeyImeFfzO2mjg" general="_r9yCoGfSEeyImeFfzO2mjg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_ZSlc4GfUEeyImeFfzO2mjg" name="redundant infrastructure ">
+      <generalization xmi:type="uml:Generalization" xmi:id="_f210EGfUEeyImeFfzO2mjg" general="_yxEUUGfSEeyImeFfzO2mjg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_eVmq0GfUEeyImeFfzO2mjg" name="desaster recovery">
+      <generalization xmi:type="uml:Generalization" xmi:id="_gyp8EGfUEeyImeFfzO2mjg" general="_yxEUUGfSEeyImeFfzO2mjg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_jhdEoGfUEeyImeFfzO2mjg" name="certificate">
+      <generalization xmi:type="uml:Generalization" xmi:id="_lZQ60GfUEeyImeFfzO2mjg" general="_PIQW4GfUEeyImeFfzO2mjg"/>
+      <generalization xmi:type="uml:Generalization" xmi:id="_GfIIcGfVEeyImeFfzO2mjg" general="_6eyjEGfUEeyImeFfzO2mjg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_pe-zAGfUEeyImeFfzO2mjg" name="access control">
+      <generalization xmi:type="uml:Generalization" xmi:id="_q0FkwGfUEeyImeFfzO2mjg" general="_1ULKQGfSEeyImeFfzO2mjg"/>
+      <generalization xmi:type="uml:Generalization" xmi:id="_sKAO0GfUEeyImeFfzO2mjg" general="_oHYY0GfSEeyImeFfzO2mjg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_yeLioGfUEeyImeFfzO2mjg" name="data classification">
+      <generalization xmi:type="uml:Generalization" xmi:id="_2-Aj8GfUEeyImeFfzO2mjg" general="_0poYcGfSEeyImeFfzO2mjg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_6eyjEGfUEeyImeFfzO2mjg" name="authentication">
+      <generalization xmi:type="uml:Generalization" xmi:id="_9gmuQGfUEeyImeFfzO2mjg" general="_r9yCoGfSEeyImeFfzO2mjg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_CGtWsGfVEeyImeFfzO2mjg" name="token">
+      <generalization xmi:type="uml:Generalization" xmi:id="_DMvxsGfVEeyImeFfzO2mjg" general="_6eyjEGfUEeyImeFfzO2mjg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_XZFvMGfVEeyImeFfzO2mjg" name="logging">
+      <generalization xmi:type="uml:Generalization" xmi:id="_a9o0AGfVEeyImeFfzO2mjg" general="_0poYcGfSEeyImeFfzO2mjg"/>
+      <generalization xmi:type="uml:Generalization" xmi:id="_ceY1EGfVEeyImeFfzO2mjg" general="_r9yCoGfSEeyImeFfzO2mjg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_g-82MGfVEeyImeFfzO2mjg" name="checksums">
+      <generalization xmi:type="uml:Generalization" xmi:id="_khP4QGfVEeyImeFfzO2mjg" general="_r9yCoGfSEeyImeFfzO2mjg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_0hLfsGfVEeyImeFfzO2mjg" name="load balancer ">
+      <generalization xmi:type="uml:Generalization" xmi:id="_--dW4GfVEeyImeFfzO2mjg" general="_ZSlc4GfUEeyImeFfzO2mjg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_CCP4AGfWEeyImeFfzO2mjg" name="messagebuffer">
+      <generalization xmi:type="uml:Generalization" xmi:id="_U4XCYGfWEeywMo24Drbvsw" general="_ZSlc4GfUEeyImeFfzO2mjg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_W75AYGfWEeywMo24Drbvsw" name="backups">
+      <generalization xmi:type="uml:Generalization" xmi:id="_ZFpiMGfWEeywMo24Drbvsw" general="_eVmq0GfUEeyImeFfzO2mjg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_ah3okGfWEeywMo24Drbvsw" name="X.509">
+      <generalization xmi:type="uml:Generalization" xmi:id="_cqErMGfWEeywMo24Drbvsw" general="_jhdEoGfUEeyImeFfzO2mjg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_e4V5kGfWEeywMo24Drbvsw" name="RBAC">
+      <generalization xmi:type="uml:Generalization" xmi:id="_hGS-4GfWEeywMo24Drbvsw" general="_pe-zAGfUEeyImeFfzO2mjg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_fu9_kGfWEeywMo24Drbvsw" name="ABAC">
+      <generalization xmi:type="uml:Generalization" xmi:id="_iBwhkGfWEeywMo24Drbvsw" general="_pe-zAGfUEeyImeFfzO2mjg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_lqlpcGfWEeywMo24Drbvsw" name="Http basic authentication">
+      <generalization xmi:type="uml:Generalization" xmi:id="_tcb1IGfWEeywMo24Drbvsw" general="_6eyjEGfUEeyImeFfzO2mjg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_n8kTIGfWEeywMo24Drbvsw" name="username password authentication">
+      <generalization xmi:type="uml:Generalization" xmi:id="_ue6l0GfWEeywMo24Drbvsw" general="_6eyjEGfUEeyImeFfzO2mjg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_pyHfgGfWEeywMo24Drbvsw" name="identity provider">
+      <generalization xmi:type="uml:Generalization" xmi:id="_uAkc8GfWEeywMo24Drbvsw" general="_6eyjEGfUEeyImeFfzO2mjg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_xisf4GfWEeywMo24Drbvsw" name="OAuth">
+      <generalization xmi:type="uml:Generalization" xmi:id="_3BjVQGfWEeywMo24Drbvsw" general="_CGtWsGfVEeyImeFfzO2mjg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_yMhgAGfWEeywMo24Drbvsw" name="OAuth2">
+      <generalization xmi:type="uml:Generalization" xmi:id="_3g3HcGfWEeywMo24Drbvsw" general="_CGtWsGfVEeyImeFfzO2mjg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_zEr3EGfWEeywMo24Drbvsw" name="Jason Web Token">
+      <generalization xmi:type="uml:Generalization" xmi:id="_4AWf0GfWEeywMo24Drbvsw" general="_CGtWsGfVEeyImeFfzO2mjg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_7tff8GfWEeywMo24Drbvsw" name="MAC">
+      <generalization xmi:type="uml:Generalization" xmi:id="_9qkQoGfWEeywMo24Drbvsw" general="_g-82MGfVEeyImeFfzO2mjg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_8QWVYGfWEeywMo24Drbvsw" name="HMAC">
+      <generalization xmi:type="uml:Generalization" xmi:id="_-aR2UGfWEeywMo24Drbvsw" general="_g-82MGfVEeyImeFfzO2mjg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_BgZSsGfXEeywMo24Drbvsw" name="IPSec">
+      <generalization xmi:type="uml:Generalization" xmi:id="_FKN5EGfXEeywMo24Drbvsw" general="_AqPOIGfUEeyImeFfzO2mjg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_CfAQAGfXEeywMo24Drbvsw" name="VPN">
+      <generalization xmi:type="uml:Generalization" xmi:id="_Em3UYGfXEeywMo24Drbvsw" general="_BgZSsGfXEeywMo24Drbvsw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_F-eAgGfXEeywMo24Drbvsw" name="TLS">
+      <generalization xmi:type="uml:Generalization" xmi:id="_HsY64GfXEeywMo24Drbvsw" general="_AqPOIGfUEeyImeFfzO2mjg"/>
+      <generalization xmi:type="uml:Generalization" xmi:id="_A5w_cGf2EeydhfWpBowbSA" general="_g-82MGfVEeyImeFfzO2mjg"/>
+      <generalization xmi:type="uml:Generalization" xmi:id="_DxW3oGf2EeydhfWpBowbSA" general="_jhdEoGfUEeyImeFfzO2mjg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_PLBPoGfXEeywMo24Drbvsw" name="MQTT">
+      <generalization xmi:type="uml:Generalization" xmi:id="_VzDTkGfXEeywMo24Drbvsw" general="_F-eAgGfXEeywMo24Drbvsw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_P21z0GfXEeywMo24Drbvsw" name="Modbus">
+      <generalization xmi:type="uml:Generalization" xmi:id="_WS4qMGfXEeywMo24Drbvsw" general="_F-eAgGfXEeywMo24Drbvsw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_Q1i3wGfXEeywMo24Drbvsw" name="AMPQ">
+      <generalization xmi:type="uml:Generalization" xmi:id="_Ws7h4GfXEeywMo24Drbvsw" general="_F-eAgGfXEeywMo24Drbvsw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_Rvsy4GfXEeywMo24Drbvsw" name="HTTPS">
+      <generalization xmi:type="uml:Generalization" xmi:id="_XUfRIGfXEeywMo24Drbvsw" general="_F-eAgGfXEeywMo24Drbvsw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Extension" xmi:id="_cXf8YGf1EeydhfWpBowbSA" name="E_confidentiality_Class1" memberEnd="_cXiYoGf1EeydhfWpBowbSA _cXi_sGf1EeydhfWpBowbSA">
+      <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_cXiYoGf1EeydhfWpBowbSA" name="extension_confidentiality" type="_oHYY0GfSEeyImeFfzO2mjg" aggregation="composite" association="_cXf8YGf1EeydhfWpBowbSA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Extension" xmi:id="_dHl8kGf1EeydhfWpBowbSA" name="E_integrity_Class1" memberEnd="_dHnKsGf1EeydhfWpBowbSA _dHnKsWf1EeydhfWpBowbSA">
+      <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_dHnKsGf1EeydhfWpBowbSA" name="extension_integrity" type="_r9yCoGfSEeyImeFfzO2mjg" aggregation="composite" association="_dHl8kGf1EeydhfWpBowbSA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Extension" xmi:id="_d-w1IGf1EeydhfWpBowbSA" name="E_availability_Class1" memberEnd="_d-xcMGf1EeydhfWpBowbSA _d-xcMWf1EeydhfWpBowbSA">
+      <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_d-xcMGf1EeydhfWpBowbSA" name="extension_availability" type="_yxEUUGfSEeyImeFfzO2mjg" aggregation="composite" association="_d-w1IGf1EeydhfWpBowbSA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Extension" xmi:id="_eiQjwGf1EeydhfWpBowbSA" name="E_transparency_Class1" memberEnd="_eiRK0Gf1EeydhfWpBowbSA _eiRK0Wf1EeydhfWpBowbSA">
+      <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_eiRK0Gf1EeydhfWpBowbSA" name="extension_transparency" type="_0poYcGfSEeyImeFfzO2mjg" aggregation="composite" association="_eiQjwGf1EeydhfWpBowbSA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Extension" xmi:id="_fRx8MGf1EeydhfWpBowbSA" name="E_unlinkability_Class1" memberEnd="_fRyjQGf1EeydhfWpBowbSA _fRzKUGf1EeydhfWpBowbSA">
+      <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_fRyjQGf1EeydhfWpBowbSA" name="extension_unlinkability" type="_1ULKQGfSEeyImeFfzO2mjg" aggregation="composite" association="_fRx8MGf1EeydhfWpBowbSA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Extension" xmi:id="_gGVloGf1EeydhfWpBowbSA" name="E_intervenability_Class1" memberEnd="_gGWMsGf1EeydhfWpBowbSA _gGWMsWf1EeydhfWpBowbSA">
+      <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_gGWMsGf1EeydhfWpBowbSA" name="extension_intervenability" type="_2EiQMGfSEeyImeFfzO2mjg" aggregation="composite" association="_gGVloGf1EeydhfWpBowbSA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Extension" xmi:id="_g7PNUGf1EeydhfWpBowbSA" name="E_confidentiality_Association1" memberEnd="_g7QbcGf1EeydhfWpBowbSA _g7QbcWf1EeydhfWpBowbSA">
+      <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_g7QbcGf1EeydhfWpBowbSA" name="extension_confidentiality" type="_oHYY0GfSEeyImeFfzO2mjg" aggregation="composite" association="_g7PNUGf1EeydhfWpBowbSA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Extension" xmi:id="_iLMZUGf1EeydhfWpBowbSA" name="E_integrity_Association1" memberEnd="_iLNAYGf1EeydhfWpBowbSA _iLNAYWf1EeydhfWpBowbSA">
+      <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_iLNAYGf1EeydhfWpBowbSA" name="extension_integrity" type="_r9yCoGfSEeyImeFfzO2mjg" aggregation="composite" association="_iLMZUGf1EeydhfWpBowbSA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Extension" xmi:id="_H-XBwMxKEeyKa7qv6r8wbw" name="E_confidentiality_Interface64" memberEnd="_H-dIYMxKEeyKa7qv6r8wbw _H-gLsMxKEeyKa7qv6r8wbw">
+      <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_H-dIYMxKEeyKa7qv6r8wbw" name="extension_confidentiality" type="_oHYY0GfSEeyImeFfzO2mjg" aggregation="composite" association="_H-XBwMxKEeyKa7qv6r8wbw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Extension" xmi:id="_JVHZUMxKEeyKa7qv6r8wbw" name="E_integrity_Interface65" memberEnd="_JVIncMxKEeyKa7qv6r8wbw _JVJOgMxKEeyKa7qv6r8wbw">
+      <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_JVIncMxKEeyKa7qv6r8wbw" name="extension_integrity" type="_r9yCoGfSEeyImeFfzO2mjg" aggregation="composite" association="_JVHZUMxKEeyKa7qv6r8wbw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Extension" xmi:id="_KZ86cMxKEeyKa7qv6r8wbw" name="E_availability_Interface66" memberEnd="_KZ9hgMxKEeyKa7qv6r8wbw _KZ-IkMxKEeyKa7qv6r8wbw">
+      <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_KZ9hgMxKEeyKa7qv6r8wbw" name="extension_availability" type="_yxEUUGfSEeyImeFfzO2mjg" aggregation="composite" association="_KZ86cMxKEeyKa7qv6r8wbw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Extension" xmi:id="_L4q7MMxKEeyKa7qv6r8wbw" name="E_transparency_Interface67" memberEnd="_L4sJUMxKEeyKa7qv6r8wbw _L4sJUcxKEeyKa7qv6r8wbw">
+      <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_L4sJUMxKEeyKa7qv6r8wbw" name="extension_transparency" type="_0poYcGfSEeyImeFfzO2mjg" aggregation="composite" association="_L4q7MMxKEeyKa7qv6r8wbw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Extension" xmi:id="_M4Qv8MxKEeyKa7qv6r8wbw" name="E_unlinkability_Interface68" memberEnd="_M4RXAMxKEeyKa7qv6r8wbw _M4R-EMxKEeyKa7qv6r8wbw">
+      <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_M4RXAMxKEeyKa7qv6r8wbw" name="extension_unlinkability" type="_1ULKQGfSEeyImeFfzO2mjg" aggregation="composite" association="_M4Qv8MxKEeyKa7qv6r8wbw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Extension" xmi:id="_N8iQYMxKEeyKa7qv6r8wbw" name="E_intervenability_Interface69" memberEnd="_N8i3cMxKEeyKa7qv6r8wbw _N8jegMxKEeyKa7qv6r8wbw">
+      <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_N8i3cMxKEeyKa7qv6r8wbw" name="extension_intervenability" type="_2EiQMGfSEeyImeFfzO2mjg" aggregation="composite" association="_N8iQYMxKEeyKa7qv6r8wbw"/>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_c8pN0KUfEeyKz-r8h4Q0dg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_c8s4MKUfEeyKz-r8h4Q0dg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UML_PROFILES/Ecore.profile.uml#_z1OFcHjqEdy8S4Cr8Rc_NA"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Ecore.profile.uml#_0"/>
+    </profileApplication>
+  </uml:Profile>
+  <Ecore:EPackage xmi:id="_lYPhIKUfEeyKz-r8h4Q0dg" base_Package="_L42GgGfSEeyImeFfzO2mjg" nsURI="http://www.umlsec.de/profiles/UMLsec/IoTComponents"/>
+</xmi:XMI>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="carisma.carismacheck">
+      <check
+            id="carisma.check.iotcomponents"
+            name="IoTComponentsCheck"
+            description="Prints the content of a UML2 model to the console"
+            publisher="Maximilian Käsgen"
+            targetModelType="UML2"
+            implementingClass="carisma.check.iotcomponents.IoTComponentsCheck">
+      </check>
+   </extension>
+
+
+</plugin>

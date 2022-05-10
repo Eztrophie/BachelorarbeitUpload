@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated IoTComponents.profile -->
+      <package
+            uri="http://www.umlsec.de/profiles/UMLsec/IoTComponents"
+            class="IoTComponents.IoTComponentsPackage"
+            genModel="profile/IoTComponents.profile.genmodel"/>
+   </extension>
+   
+   <extension
+         point="org.eclipse.emf.ecore.uri_mapping">
+      <mapping
+            source="pathmap://UMLsec/IoTComponents.uml"
+            target="platform:/plugin/carisma.profile.umlsec.rabac/profile/IoTComponents.profile.uml">
+      </mapping>
+   </extension>
+   <extension
+         point="org.eclipse.papyrus.uml.extensionpoints.UMLProfile">
+      <profile
+            name="UMLsec.IoTComponents"
+            path="pathmap://UMLsec/IoTComponents.uml">
+      </profile>
+   </extension>
+   <extension
+         point="org.eclipse.uml2.uml.generated_package">
+      <profile
+            location="platform:/plugin/carisma.profile.umlsec.iotcomponents/profile/IoTComponents.profile.uml#_L42GgGfSEeyImeFfzO2mjg"
+            uri="http://www.umlsec.de/profiles/UMLsec/IoTComponents">
+      </profile>
+   </extension>
+
+</plugin>
